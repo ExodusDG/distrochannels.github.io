@@ -1,49 +1,517 @@
-@media (max-width: 1600px) {
-    .card-buy-button {
-        left: 0.9vw !important;
-        bottom: 1vw !important;
-    }
-    .footer {
-        height: 35vw !important;
-    }
-}
-
-@media (max-width: 1400px) {
-    .card-buy-button {
-        padding: 0.3vw 1.8vw 0.3vw 1.8vw !important;
-        font-size: 1vw !important;
-        left: 1.2vw !important;
-    }
-    .buy-card {
-        height: 23vw !important;
-    }
-    .header-slider-text {
-        width: 35vw !important;
-    }
-    .header-slider-auth {
-        bottom: 6vw !important;
-    }
-    .slider-buttons {
-        bottom: 2vw !important;
-    }
-}
-
-@media (max-width: 1200px) {
-    .footer {
-        height: 37vw !important;
-    }
-}
-
-@media (max-width: 1024px) {
-    .footer {
-        height: 37vw !important;
-    }
-    .card-small-desc {
-        position: relative;
-        bottom: 1.5vw !important;
-        padding-bottom: 0vw !important;
-    }
-    .card-buy-button {
-        bottom: 2.5vw !important;
-    }
-}
+        @media (max-width: 1600px) {
+            .card-buy-button {
+                left: 0.9vw !important;
+                bottom: 1vw !important;
+            }
+            .footer {
+                height: 35vw !important;
+            }
+        }
+        
+        @media (max-width: 1400px) {
+            .card-buy-button {
+                padding: 0.3vw 1.8vw 0.3vw 1.8vw !important;
+                font-size: 1vw !important;
+                left: 1.2vw !important;
+            }
+            .buy-card {
+                height: 23vw !important;
+            }
+            .header-slider-text {
+                width: 35vw !important;
+            }
+            .header-slider-auth {
+                bottom: 6vw !important;
+            }
+            .slider-buttons {
+                bottom: 2vw !important;
+            }
+        }
+        
+        @media (max-width: 1200px) {
+            .footer {
+                height: 37vw !important;
+            }
+        }
+        
+        @media (max-width: 1024px) {
+            .footer {
+                height: 37vw !important;
+            }
+            .card-small-desc {
+                position: relative;
+                bottom: 1.5vw !important;
+                padding-bottom: 0vw !important;
+            }
+            .card-buy-button {
+                bottom: 2.5vw !important;
+            }
+        }
+        
+        @media (max-width: 375px) {
+            .navbar img {
+                width: 30vw !important;
+                position: relative !important;
+                right: 5vw !important;
+            }
+            .navbar {
+                width: 100vw !important;
+                margin: 0 auto;
+            }
+            .navbar li {
+                font-size: 2.2vw !important;
+                margin-left: 2vw !important;
+            }
+            .navbar-text {
+                right: 5vw !important;
+            }
+            .header-title {
+                font-size: 4vw !important;
+            }
+            .header-desc {
+                font-size: 2.2vw !important;
+                width: 80vw !important;
+            }
+            .input_area {
+                width: 45vw !important;
+                height: 7vw !important;
+                font-size: 3vw !important;
+            }
+            .header-body button {
+                padding: 1.2vw 5.5vw !important;
+                border-radius: 1vw !important;
+                font-size: 3vw !important;
+                position: relative;
+                bottom: 0.5vw !important;
+            }
+            .header-down-text {
+                font-size: 2.5vw !important;
+            }
+            .slick-list {
+                width: 100vw !important;
+            }
+            .slide img {
+                width: 16vw !important;
+                bottom: 8vw !important;
+                right: 4vw;
+            }
+            .header-slider-text {
+                bottom: 12.5vw !important;
+            }
+            .header-slider {
+                width: 100vw !important;
+                position: relative;
+                left: 7vw;
+                top: 6vw;
+                margin: 0 auto;
+            }
+            .slide {
+                width: 80vw !important;
+                height: 15vw !important;
+                margin: 2vw 5vw 2vw 2vw;
+                position: relative !important;
+                left: 8vw !important;
+            }
+            .header-slider-text {
+                position: relative;
+                width: 60vw !important;
+                font-size: 2.5vw !important;
+                left: 12vw !important;
+                bottom: 20vw !important;
+            }
+            .fa-quote-right {
+                left: 73vw !important;
+                top: 8vw !important;
+                font-size: 2vw !important;
+            }
+            .body-title {
+                font-size: 3.6vw !important;
+            }
+            .slider-img {
+                width: 55vw !important;
+                position: relative;
+                left: 0vw !important;
+            }
+            .slider-buttons {
+                height: 70vw;
+                position: relative;
+                left: 0vw !important;
+            }
+            .demo-button p {
+                font-size: 2vw !important;
+            }
+            .demo-button-text {
+                width: 30vw !important;
+            }
+            .demo-button-text span {
+                font-size: 1.5vw !important;
+            }
+            .demo-button p {
+                margin-bottom: 0rem !important;
+            }
+            .demo-button img {
+                width: 4vw !important;
+                right: 4vw !important;
+                top: 0.4vw;
+            }
+            .demo-button {
+                margin-bottom: 0rem !important;
+            }
+            .slider-buttons {
+                bottom: 5vw !important;
+            }
+            .demo-button-active {
+                background: transparent !important;
+                border: 1px solid transparent !important;
+                box-shadow: 2px 2px 8px transparent !important;
+            }
+            .logo-row {
+                position: relative !important;
+                top: 20vw !important;
+            }
+            .logo-title {
+                font-size: 3vw !important;
+            }
+            .buy-info {
+                top: 20vw !important;
+                right: 20vw !important;
+                padding-bottom: 20vw !important;
+            }
+            .buy-info-card img {
+                width: 25vw !important;
+            }
+            .logotype-list img {
+                width: 80vw !important;
+                position: relative;
+                left: 5vw !important;
+            }
+            .buy-info-title {
+                font-size: 3.2vw !important;
+            }
+            .buy-info-desc {
+                font-size: 2vw !important;
+                width: 25vw !important;
+            }
+            .buy__cards {
+                width: 90vw !important;
+                margin: 0 auto;
+                left: 3vw;
+                position: relative;
+                padding-top: 10vw;
+            }
+            .buy-card {
+                height: 22vw;
+                width: 15vw;
+                border-radius: 0.5vw;
+                margin-right: 1vw;
+            }
+            .buy-card {
+                height: 36vw !important;
+                width: 20vw !important;
+                border-radius: 0.5vw;
+                margin-right: 2vw !important;
+            }
+            .card-buy-name {
+                font-size: 3vw !important;
+            }
+            .card-buy-desc {
+                font-size: 1.7vw !important;
+                padding-top: 0vw !important;
+            }
+            .card-buy-price {
+                font-size: 4.5vw !important;
+                padding-bottom: 4vw !important;
+            }
+            .card-buy-price sup {
+                font-size: 2.5vw !important;
+            }
+            .buy-card p {
+                margin-bottom: 0.5rem !important;
+            }
+            .month-price {
+                font-size: 1.3vw !important;
+                bottom: 6.3vw !important;
+            }
+            .card-small-desc {
+                font-size: 1.2vw !important;
+                position: relative;
+                bottom: 6vw !important;
+                left: 3vw !important;
+            }
+            .card-buy-button {
+                padding: 0.3vw 1.8vw 0.3vw 1.8vw !important;
+                font-size: 2vw !important;
+                left: 3vw !important;
+                bottom: 9vw !important;
+            }
+            .card-desc {
+                font-family: 'Source Sans Pro', sans-serif;
+                font-weight: 300;
+                font-size: 1.7vw !important;
+                position: relative;
+                top: 1vw;
+                left: 4vw !important;
+            }
+            .pre-footer-title {
+                font-size: 3.5vw !important;
+            }
+            .pre-footer-button {
+                font-size: 2.3vw !important;
+                left: 40vw !important;
+            }
+            .footer-product {
+                left: 0vw !important;
+            }
+            .footer-company {
+                left: 0vw !important;
+            }
+            .footer-support {
+                left: 0vw !important;
+            }
+            .footer-reviews img {
+                width: 12vw;
+                position: relative;
+                right: 30vw !important;
+                bottom: 3vw !important;
+            }
+            .footer {
+                height: 35vw !important;
+            }
+            .footer-down {
+                display: none;
+            }
+        }
+        
+        @media (max-width: 414px) {
+            .navbar img {
+                width: 30vw !important;
+                position: relative !important;
+                right: 5vw !important;
+            }
+            .navbar {
+                width: 100vw !important;
+                margin: 0 auto;
+            }
+            .navbar li {
+                font-size: 2.2vw !important;
+                margin-left: 2vw !important;
+            }
+            .navbar-text {
+                right: 5vw !important;
+            }
+            .header-title {
+                font-size: 4vw !important;
+            }
+            .header-desc {
+                font-size: 2.2vw !important;
+                width: 80vw !important;
+            }
+            .input_area {
+                width: 45vw !important;
+                height: 7vw !important;
+                font-size: 3vw !important;
+            }
+            .header-body button {
+                padding: 1.2vw 5.5vw !important;
+                border-radius: 1vw !important;
+                font-size: 3vw !important;
+                position: relative;
+                bottom: 0.5vw !important;
+            }
+            .header-down-text {
+                font-size: 2.5vw !important;
+            }
+            .slick-list {
+                width: 100vw !important;
+            }
+            .slide img {
+                width: 16vw !important;
+                bottom: 8vw !important;
+                right: 4vw;
+            }
+            .header-slider-text {
+                bottom: 12.5vw !important;
+            }
+            .header-slider {
+                width: 100vw !important;
+                position: relative;
+                left: 7vw;
+                top: 6vw;
+                margin: 0 auto;
+            }
+            .slide {
+                width: 80vw !important;
+                height: 15vw !important;
+                margin: 2vw 5vw 2vw 2vw;
+                position: relative !important;
+                left: 8vw !important;
+            }
+            .header-slider-text {
+                position: relative;
+                width: 60vw !important;
+                font-size: 2.5vw !important;
+                left: 12vw !important;
+                bottom: 20vw !important;
+            }
+            .fa-quote-right {
+                left: 73vw !important;
+                top: 8vw !important;
+                font-size: 2vw !important;
+            }
+            .body-title {
+                font-size: 3.6vw !important;
+            }
+            .slider-img {
+                width: 55vw !important;
+                position: relative;
+                left: 0vw !important;
+            }
+            .slider-buttons {
+                height: 70vw;
+                position: relative;
+                left: 0vw !important;
+            }
+            .demo-button p {
+                font-size: 2vw !important;
+            }
+            .demo-button-text {
+                width: 30vw !important;
+            }
+            .demo-button-text span {
+                font-size: 1.5vw !important;
+            }
+            .demo-button p {
+                margin-bottom: 0rem !important;
+            }
+            .demo-button img {
+                width: 4vw !important;
+                right: 4vw !important;
+                top: 0.4vw;
+            }
+            .demo-button {
+                margin-bottom: 0rem !important;
+            }
+            .slider-buttons {
+                bottom: 5vw !important;
+            }
+            .demo-button-active {
+                background: transparent !important;
+                border: 1px solid transparent !important;
+                box-shadow: 2px 2px 8px transparent !important;
+            }
+            .logo-row {
+                position: relative !important;
+                top: 20vw !important;
+            }
+            .logo-title {
+                font-size: 3vw !important;
+            }
+            .buy-info {
+                top: 20vw !important;
+                right: 20vw !important;
+                padding-bottom: 20vw !important;
+            }
+            .buy-info-card img {
+                width: 25vw !important;
+            }
+            .logotype-list img {
+                width: 80vw !important;
+                position: relative;
+                left: 5vw !important;
+            }
+            .buy-info-title {
+                font-size: 3.2vw !important;
+            }
+            .buy-info-desc {
+                font-size: 2vw !important;
+                width: 25vw !important;
+            }
+            .buy__cards {
+                width: 90vw !important;
+                margin: 0 auto;
+                left: 3vw;
+                position: relative;
+                padding-top: 10vw;
+            }
+            .buy-card {
+                height: 22vw;
+                width: 15vw;
+                border-radius: 0.5vw;
+                margin-right: 1vw;
+            }
+            .buy-card {
+                height: 36vw !important;
+                width: 20vw !important;
+                border-radius: 0.5vw;
+                margin-right: 2vw !important;
+            }
+            .card-buy-name {
+                font-size: 3vw !important;
+            }
+            .card-buy-desc {
+                font-size: 1.7vw !important;
+                padding-top: 0vw !important;
+            }
+            .card-buy-price {
+                font-size: 4.5vw !important;
+                padding-bottom: 4vw !important;
+            }
+            .card-buy-price sup {
+                font-size: 2.5vw !important;
+            }
+            .buy-card p {
+                margin-bottom: 0.5rem !important;
+            }
+            .month-price {
+                font-size: 1.3vw !important;
+                bottom: 6.3vw !important;
+            }
+            .card-small-desc {
+                font-size: 1.2vw !important;
+                position: relative;
+                bottom: 6vw !important;
+                left: 3vw !important;
+            }
+            .card-buy-button {
+                padding: 0.3vw 1.8vw 0.3vw 1.8vw !important;
+                font-size: 2vw !important;
+                left: 3vw !important;
+                bottom: 9vw !important;
+            }
+            .card-desc {
+                font-family: 'Source Sans Pro', sans-serif;
+                font-weight: 300;
+                font-size: 1.7vw !important;
+                position: relative;
+                top: 1vw;
+                left: 4vw !important;
+            }
+            .pre-footer-title {
+                font-size: 3.5vw !important;
+            }
+            .pre-footer-button {
+                font-size: 2.3vw !important;
+                left: 40vw !important;
+            }
+            .footer-product {
+                left: 0vw !important;
+            }
+            .footer-company {
+                left: 0vw !important;
+            }
+            .footer-support {
+                left: 0vw !important;
+            }
+            .footer-reviews img {
+                width: 12vw;
+                position: relative;
+                right: 30vw !important;
+                bottom: 3vw !important;
+            }
+            .footer {
+                height: 35vw !important;
+            }
+            .footer-down {
+                display: none;
+            }
+        }
