@@ -1,6 +1,6 @@
 @import 'adaptive.css';
 .body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
 
@@ -21,7 +21,7 @@
 .navbar li {
     list-style-type: none;
     margin-left: 2.5vw;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 1vw;
 }
@@ -34,7 +34,8 @@
     border: none;
     background: #ed6664;
     padding: 0.35vw 0.9vw;
-    border-radius: 0.5vw;
+    outline: none;
+    border-radius: 1vw;
     color: white;
 }
 
@@ -53,16 +54,25 @@
 }
 
 .header-title {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 2.3vw;
 }
 
 .header-desc {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.2vw;
+    width: 26vw;
+    margin: 0 auto;
+    padding-bottom: 2vw;
+}
+
+.header-desc span {
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 1.2vw;
-    width: 40vw;
+    width: 26vw;
     margin: 0 auto;
 }
 
@@ -72,10 +82,62 @@
 
 .input_area {
     padding: 0.9vw;
-    width: 15vw;
+    width: 20vw;
     border-radius: 0.3vw;
     height: 3vw;
+    margin-bottom: 1vw;
     border: 1px solid #E2E3E7;
+}
+
+.img-name {
+    position: absolute;
+    left: 20.5vw;
+    top: 2.8vw;
+}
+
+.header-input-button {
+    background: #ed6664;
+    color: #EEEEEE;
+    border: none;
+    border-radius: 1vw;
+    padding: 0.8vw 1.1vw 0.8vw 1.2vw;
+    font-size: 0.9vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.logotype-block-text {
+    margin: 0 auto;
+    width: 100vw;
+    background: #ECF8F5;
+    padding-bottom: 5vw;
+}
+
+.logotype-block-text p {
+    font-family: 'Poppins', italic;
+    font-weight: 700;
+    font-size: 1.9vw;
+    width: 50vw;
+    position: relative;
+    left: 25vw;
+    top: 3vw;
+}
+
+.img-email {
+    position: absolute;
+    left: 20.5vw;
+    top: 7.0vw;
+}
+
+.img-phone {
+    position: absolute;
+    left: 20.6vw;
+    top: 10.8vw;
+}
+
+.header-input-div {
+    position: relative;
+    bottom: 2vw;
 }
 
 .header-body input {
@@ -83,20 +145,10 @@
     top: 2vw;
 }
 
-.header-body button {
-    background: #ed6664;
-    color: white;
-    padding: 0.35vw 1.5vw;
-    border: none;
+.header-top-text {
     position: relative;
+    left: 22vw;
     top: 2vw;
-    left: 0.5vw;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 600;
-    font-size: 1.5vw;
-    border-radius: 0.3vw;
-    transition: 0.4s;
-    cursor: pointer;
 }
 
 .header-body button:hover {
@@ -107,6 +159,21 @@
     position: relative;
     top: 3vw;
     font-weight: 1vw;
+}
+
+.header-top-input {
+    width: 25vw;
+    box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.3);
+    height: 21vw;
+    position: relative;
+    left: 30vw;
+}
+
+.header-top-input p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    padding-top: 0.5vw;
+    font-size: 1.8vw;
 }
 
 .header-slider {
@@ -200,18 +267,20 @@
 }
 
 .title {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
 }
 
 .body-title {
     font-size: 1.6vw;
+    padding-top: 3vw;
 }
 
 .slider-img {
-    width: 40vw;
+    width: 60vw;
     position: relative;
     left: 18vw;
+    box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.4);
 }
 
 .screen-slider {
@@ -253,13 +322,13 @@
 }
 
 .demo-button p {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 1vw;
 }
 
 .demo-button span {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 0.7vw;
     position: relative;
@@ -274,21 +343,46 @@
 
 .logo-title {
     font-size: 1.6vw;
-    padding-bottom: 1vw;
+    padding-bottom: 20vw;
 }
 
 .logo-title-1 {
     font-size: 1.6vw;
     padding-top: 3vw;
+    width: 50vw;
+    position: relative;
+    left: 24vw;
+}
+
+.buy-cards {
+    position: relative;
+    top: 5vw;
+    right: 5vw;
+    font-family: "Poppins", Helvetica, sans-serif !important;
+}
+
+.buy-cards-title {
+    font-family: "Poppins", Helvetica, sans-serif !important;
+    font-weight: 700;
+    font-size: 1.7vw;
+    position: relative;
+    top: 5vw;
+    left: 30vw;
+}
+
+.buy-info-card i {
+    font-size: 4vw;
+    position: relative;
+    left: 0.5vw;
 }
 
 .logo-button {
     border: 0.1vw solid #ed6664;
-    background: white;
-    color: #ed6664;
+    background: #ed6664;
+    color: white;
     padding: 0.5vw 1.2vw 0.5vw 1.2vw;
     font-size: 1.3vw;
-    border-radius: 0.5vw;
+    border-radius: 1vw;
     font-weight: 500;
     cursor: pointer;
 }
@@ -308,7 +402,7 @@
 }
 
 .buy-info-title {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     position: relative;
     left: 0.5vw;
@@ -324,7 +418,7 @@
 }
 
 .buy-info-desc {
-    width: 15vw;
+    width: 13vw;
     position: relative;
     left: 0.5vw;
     font-size: 1vw;
@@ -335,36 +429,79 @@
 }
 
 .buy__cards {
-    width: 50vw;
+    width: 70vw;
     margin: 0 auto;
-    left: 3vw;
+    left: 5vw;
+    padding-bottom: 5vw;
     position: relative;
     padding-top: 10vw;
 }
 
 .buy-card {
-    height: 22vw;
-    width: 15vw;
+    height: 21vw;
+    width: 20vw;
     border-radius: 0.5vw;
-    margin-right: 1vw;
+    margin-right: 5vw;
     box-shadow: 2px 2px 24px 0px #dddddd;
     -webkit-box-shadow: 2px 2px 24px 0px #dddddd;
     -moz-box-shadow: 2px 2px 24px 0px #dddddd;
     color: #424242;
 }
 
+.buy-card-button {
+    border-radius: 1.5vw;
+    position: relative;
+    left: 3vw;
+    top: 2vw;
+    color: white;
+    font-weight: 600;
+    font-size: 1.3vw;
+    font-family: "Poppins", Helvetica, sans-serif;
+    background: #ed6664;
+    border: none;
+    padding: 0.8vw 1.8vw 0.8vw 1.8vw;
+}
+
+.buy-card-price-color {
+    background-color: rgba(66, 185, 159, 0.28) !important;
+}
+
+.buy-card-more {
+    color: rgb(3, 119, 237);
+    font-weight: 600;
+    font-size: 1vw;
+    position: relative;
+    top: 3vw;
+    left: 6.5vw;
+}
+
+.fa-arrow-alt-circle-right {
+    position: relative;
+    padding-right: 0.5vw;
+}
+
+.buy-card-body {
+    position: relative;
+    top: 1vw;
+}
+
+.buy-card-price {
+    background-color: rgb(241, 241, 241);
+    height: 9vw;
+}
+
 .card-buy-name {
     text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    font-size: 1.4vw;
+    font-size: 0.8vw;
     position: relative;
-    top: 2vw;
+    top: 1vw;
 }
 
 .card-buy-desc {
     text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 0.7vw;
     padding-top: 2vw;
@@ -372,29 +509,30 @@
 
 .card-buy-price {
     text-align: center;
-    font-size: 2.5vw;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 600;
+    font-size: 3.5vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
 }
 
 .card-buy-price sup {
-    font-size: 1.5vw;
+    font-size: 1.9vw;
+    position: relative;
 }
 
 .card-small-desc {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    font-size: 0.7vw;
+    font-size: 0.8vw;
     position: relative;
     left: 1vw;
-    padding-bottom: 0.5vw;
+    padding-bottom: 0vw;
 }
 
 .card-buy-button {
     text-align: center;
     position: relative;
     left: 1.35vw;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     bottom: 0vw;
     color: white;
@@ -410,7 +548,7 @@
 }
 
 .month-price {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 0.6vw;
     position: relative;
@@ -419,19 +557,20 @@
 }
 
 .card-desc {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 0.7vw;
     position: relative;
-    top: 1vw;
+    top: 5vw;
     left: 27vw;
 }
 
 .pre-footer-title {
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 2vw;
     position: relative;
     top: 5vw;
+    left: 2vw;
 }
 
 .pre-footer-button {
@@ -449,10 +588,11 @@
 }
 
 .footer {
-    width: 100vw;
+    width: 102vw;
     background: #114B5F;
     height: 30vw;
     position: relative;
+    right: 2vw;
     top: 10vw;
 }
 
@@ -470,7 +610,7 @@
 
 .product-title {
     color: white;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 1vw;
 }
@@ -534,7 +674,7 @@
 
 .footer-terms {
     color: white;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 0.9vw;
     position: relative;
