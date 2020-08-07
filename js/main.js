@@ -26,3 +26,13 @@ $(document).ready(function() {
         $('.slider-img').attr('src', 'img/with-tooltip-3.png')
     });
 });
+$(document).ready(function() {
+
+    var w = $(window).width();
+    if (w > 415) {
+        return false;
+    } else {
+        $('.slide').attr('style', 'margin-left: 8vw;');
+    }
+
+});
