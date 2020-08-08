@@ -108,7 +108,9 @@
 
 .logotype-block-text {
     margin: 0 auto;
-    width: 100vw;
+    width: 102vw;
+    position: relative;
+    right: 2vw;
     background: #ECF8F5;
     padding-bottom: 5vw;
 }
@@ -483,6 +485,7 @@
 .buy-card-body {
     position: relative;
     top: 1vw;
+    font-size: 0.8vw;
 }
 
 .buy-card-price {
@@ -754,4 +757,5 @@
     color: white;
     position: relative;
     top: 3vw;
+    font-size: 1vw;
 }

@@ -34,5 +34,12 @@ $(document).ready(function() {
     } else {
         $('.slide').attr('style', 'margin-left: 8vw;');
     }
-
+});
+$(document).ready(function() {
+    var w = $(window).width();
+    if (w > 415) {
+        return false;
+    } else {
+        $('.buy-info-nb').attr('style', 'display: none;');
+    }
 });
