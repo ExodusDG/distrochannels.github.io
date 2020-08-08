@@ -48,7 +48,7 @@
             }
         }
         
-        @media (max-width: 375px) {
+        @media (max-width: 768px) {
             .navbar img {
                 width: 30vw !important;
                 position: relative !important;
@@ -56,7 +56,6 @@
             }
             .header-top-text {
                 position: relative;
-                left: 0vw !important;
                 width: 20vw !important;
             }
             .header-desc {
@@ -796,7 +795,7 @@
             }
         }
         
-        @media (max-width: 768px) {
+        @media (max-width: 375px) {
             .navbar img {
                 width: 30vw !important;
                 position: relative !important;
@@ -804,7 +803,7 @@
             }
             .header-top-text {
                 position: relative;
-                left: 0vw !important;
+                left: 10vw !important;
                 width: 20vw !important;
             }
             .header-desc {
@@ -835,7 +834,7 @@
             .header-top-input {
                 width: 33vw !important;
                 height: 35vw !important;
-                left: 30vw;
+                left: 35vw !important;
             }
             .img-email {
                 position: absolute;
@@ -864,7 +863,7 @@
             }
             .header-body button {
                 padding: 1vw 1vw 1vw 1vw !important;
-                font-size: 1.5vw !important;
+                font-size: 1.2vw !important;
                 position: relative !important;
                 bottom: 2vw !important;
             }
@@ -982,7 +981,7 @@
             }
             .buy-info {
                 top: 20vw !important;
-                right: 20vw !important;
+                right: 14vw !important;
                 padding-bottom: 20vw !important;
             }
             .buy-info-card img {
@@ -1010,13 +1009,13 @@
             }
             .buy-cards-title {
                 font-size: 2.7vw !important;
-                left: 15vw !important;
+                left: 17vw !important;
             }
             .buy-card {
                 height: 40vw !important;
                 width: 25vw !important;
                 border-radius: 0.5vw;
-                right: 7vw !important;
+                right: 3vw !important;
                 position: relative !important;
                 margin-right: 2vw !important;
             }
@@ -1027,6 +1026,10 @@
             .card-buy-price {
                 font-size: 4.5vw !important;
                 padding-bottom: 4vw !important;
+            }
+            .b2b-cards {
+                position: relative;
+                left: 16vw !important;
             }
             .buy__cards {
                 width: 70vw;

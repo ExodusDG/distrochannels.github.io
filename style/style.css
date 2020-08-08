@@ -61,19 +61,29 @@
 
 .header-desc {
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 1.2vw;
-    width: 26vw;
+    font-weight: 500;
+    font-size: 2.5vw;
+    width: 35vw;
+    position: relative;
+    bottom: 1vw;
     margin: 0 auto;
-    padding-bottom: 2vw;
+    padding-bottom: 0vw;
 }
 
-.header-desc span {
+.header-desc-1 {
     font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 1.2vw;
-    width: 26vw;
-    margin: 0 auto;
+    font-weight: 400;
+    font-size: 1.3vw;
+    width: 35vw;
+}
+
+.header-desc-1 span {
+    font-weight: 600;
+}
+
+.header-desc-span {
+    font-weight: 700 !important;
+    font-size: 2vw;
 }
 
 .header-body {
@@ -99,8 +109,8 @@
     background: #ed6664;
     color: #EEEEEE;
     border: none;
-    border-radius: 1vw;
-    padding: 0.8vw 1.1vw 0.8vw 1.2vw;
+    border-radius: 2vw;
+    padding: 0.8vw 1vw 0.8vw 1vw;
     font-size: 0.9vw;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -110,6 +120,7 @@
     margin: 0 auto;
     width: 102vw;
     position: relative;
+    font-weight: 600;
     right: 2vw;
     background: #ECF8F5;
     padding-bottom: 5vw;
@@ -117,7 +128,7 @@
 
 .logotype-block-text p {
     font-family: 'Poppins', italic;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1.9vw;
     width: 50vw;
     position: relative;
@@ -149,8 +160,9 @@
 
 .header-top-text {
     position: relative;
-    left: 22vw;
-    top: 2vw;
+    left: 19vw;
+    font-family: Helvetica, sans-serif !important;
+    top: 0vw;
 }
 
 .header-body button:hover {
@@ -168,7 +180,7 @@
     box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.3);
     height: 21vw;
     position: relative;
-    left: 30vw;
+    left: 20vw;
 }
 
 .header-top-input p {
@@ -264,7 +276,7 @@
 
 .site-body {
     width: 100vw;
-    padding-top: 10vw;
+    padding-top: 5vw;
     margin: 0 auto;
 }
 
@@ -345,12 +357,13 @@
 
 .logo-title {
     font-size: 1.6vw;
-    padding-bottom: 20vw;
+    padding-bottom: 10vw;
 }
 
 .logo-title-1 {
-    font-size: 1.6vw;
+    font-size: 2vw;
     padding-top: 3vw;
+    font-weight: 600;
     width: 50vw;
     position: relative;
     left: 24vw;
@@ -359,17 +372,17 @@
 .buy-cards {
     position: relative;
     top: 5vw;
-    right: 5vw;
+    right: 10vw;
     font-family: "Poppins", Helvetica, sans-serif !important;
 }
 
 .buy-cards-title {
     font-family: "Poppins", Helvetica, sans-serif !important;
-    font-weight: 700;
-    font-size: 1.7vw;
+    font-weight: 600;
+    font-size: 2vw;
     position: relative;
     top: 5vw;
-    left: 30vw;
+    left: 36vw;
 }
 
 .buy-info-card i {
@@ -416,7 +429,7 @@
     width: 40vw;
     margin: 0 auto;
     position: relative;
-    right: 3vw;
+    right: 0vw;
 }
 
 .buy-info-desc {
@@ -433,7 +446,7 @@
 .buy__cards {
     width: 70vw;
     margin: 0 auto;
-    left: 5vw;
+    left: 12.5vw;
     padding-bottom: 5vw;
     position: relative;
     padding-top: 10vw;
@@ -573,7 +586,7 @@
     font-size: 2vw;
     position: relative;
     top: 5vw;
-    right: 2vw;
+    right: 0vw;
 }
 
 .pre-footer-button {
@@ -601,12 +614,12 @@
 
 .b2b-cards {
     position: relative;
-    left: 16vw;
+    left: 26vw;
     top: 10vw;
 }
 
 .b2b-card {
-    margin-right: 10vw;
+    margin-right: 5vw;
 }
 
 .b2b-card-title {
@@ -616,7 +629,7 @@
 
 .b2b-card-desc {
     text-align: center;
-    width: 25vw;
+    width: 20vw;
     font-size: 1.1vw;
 }
 
@@ -646,7 +659,7 @@
 .distro-cards-title {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    font-size: 1.7vw;
+    font-size: 2vw;
     position: relative;
     top: 2vw;
 }
@@ -665,7 +678,7 @@
 
 .distro-card-list {
     position: relative;
-    left: 20vw;
+    left: 25vw;
     top: 5vw;
 }
 
