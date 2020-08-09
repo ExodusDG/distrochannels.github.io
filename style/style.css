@@ -173,7 +173,7 @@
 }
 
 .header-input-button {
-    background: #ed6664;
+    background: #12636F;
     color: #EEEEEE;
     border: none;
     position: relative;
@@ -580,7 +580,7 @@
     font-weight: 600;
     font-size: 1.3vw;
     font-family: "Poppins", Helvetica, sans-serif;
-    background: #ed6664;
+    background: #12636F;
     border: none;
     padding: 0.8vw 1.8vw 0.8vw 1.8vw;
 }
@@ -1037,7 +1037,7 @@
 
 .questions button {
     border: none;
-    background: #ed6664;
+    background: #12636F;
     padding: 0.35vw 1.3vw;
     outline: none;
     position: relative;
