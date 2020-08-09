@@ -6,13 +6,13 @@
 
 .header {
     padding-top: 1vw;
-    background: #007787;
+    background: #F4FDFC;
     height: 50vw;
     position: relative;
 }
 
 .fixed-menu {
-    background: #007787;
+    background: #F4FDFC;
     width: 105vw;
     height: 5vw;
     position: fixed;
@@ -32,12 +32,13 @@
 .navbar img {
     width: 20vw;
     position: relative;
-    left: 25vw;
+    left: 27vw;
 }
 
 .navbar li {
     list-style-type: none;
     margin-left: 2.5vw;
+    color: black !important;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     position: relative;
@@ -51,18 +52,21 @@
 
 .header-sign-button {
     border: none;
-    background: #ed6664;
-    padding: 0.9vw 1.1vw 0.9vw 1.1vw;
+    background: transparent;
+    padding: 0.7vw 1.3vw 0.7vw 1.3vw;
     outline: none;
     position: relative;
-    left: 2vw;
-    border-radius: 1vw;
-    color: white;
+    border: 0.2vw solid #000000;
+    left: 0vw;
+    border-radius: 1.5vw;
+    color: black;
+    transition: 0.4s;
 }
 
 .header-sign-button:hover {
     background: #ed6664;
-    transition: 0.4s;
+    border: 0.2vw solid #ed6664;
+    color: white;
 }
 
 .navbar-text li {
@@ -78,7 +82,7 @@
 .header-title {
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
-    color: white;
+    color: black;
     font-size: 3vw;
 }
 
@@ -88,7 +92,7 @@
     font-size: 2.5vw;
     width: 35vw;
     position: relative;
-    color: white;
+    color: black;
     bottom: 1vw;
     margin: 0 auto;
     padding-bottom: 0vw;
@@ -97,7 +101,7 @@
 .header-desc-1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    color: white;
+    color: black;
     font-size: 1.7vw;
     width: 35vw;
 }
@@ -122,7 +126,7 @@
 }
 
 .header-button {
-    background: #b8e3ff;
+    background: #12636F;
     position: relative;
     top: 0vw;
     z-index: 999;
@@ -130,14 +134,14 @@
     text-align: center;
     border-radius: 0.5vw;
     border: none;
-    color: black;
+    color: white;
     font-size: 1vw;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
 
 .header-button:hover {
-    background: #b8e3ff !important;
+    background: #12636F !important;
 }
 
 .input_area {
@@ -155,6 +159,17 @@
     left: 20.5vw;
     width: 1.3vw;
     top: 2.8vw;
+}
+
+.logotype-block-titletext {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2.5vw;
+    width: 35vw;
+    left: 25vw;
+    top: 10vw;
+    text-align: left;
 }
 
 .header-input-button {
@@ -184,9 +199,9 @@
     font-family: 'Poppins', italic;
     font-weight: 600;
     font-size: 1.9vw;
-    width: 70vw;
+    width: 90vw;
     position: relative;
-    left: 16vw;
+    left: 5vw;
     top: 3vw;
 }
 
@@ -442,14 +457,19 @@
     font-size: 2vw;
     padding-top: 3vw;
     font-weight: 600;
-    width: 50vw;
+    width: 80vw;
     position: relative;
-    left: 24vw;
+    left: 8vw;
 }
 
 .buy-cards {
     position: relative;
     top: 5vw;
+    background: #CBE6E9;
+    width: 115vw;
+    padding: 5vw;
+    padding-right: 20vw;
+    height: 30vw;
     right: 10vw;
     font-family: "Poppins", Helvetica, sans-serif !important;
 }
@@ -459,8 +479,8 @@
     font-weight: 600;
     font-size: 2vw;
     position: relative;
-    top: 5vw;
-    left: 36vw;
+    top: 10vw;
+    left: 30vw;
 }
 
 .buy-info-card i {
@@ -473,7 +493,6 @@
     border: 0.1vw solid #ed6664;
     background: #ed6664;
     color: white;
-    z-index: 999;
     position: relative;
     top: 0vw;
     padding: 0.5vw 1.2vw 0.5vw 1.2vw;
@@ -520,7 +539,7 @@
 }
 
 .buy-info-desc {
-    width: 13vw;
+    width: 17vw;
     position: relative;
     left: 0.5vw;
     font-size: 1vw;
@@ -528,6 +547,8 @@
 
 .buy-info-card {
     margin-right: 3vw;
+    position: relative;
+    right: 8vw;
 }
 
 .buy__cards {
@@ -536,7 +557,7 @@
     left: 12.5vw;
     padding-bottom: 5vw;
     position: relative;
-    padding-top: 10vw;
+    padding-top: 12vw;
 }
 
 .buy-card {
@@ -692,7 +713,7 @@
 
 .b2b-block {
     position: relative;
-    top: 7vw;
+    top: 37vw;
 }
 
 .b2b-card i {
@@ -722,8 +743,10 @@
 }
 
 .b2b-card-desc {
-    text-align: center;
-    width: 20vw;
+    text-align: left;
+    width: 40vw;
+    position: relative;
+    bottom: 0.5vw;
     font-size: 1.1vw;
 }
 
@@ -873,42 +896,143 @@
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
     position: relative;
-    top: 3vw;
+    top: 8vw;
 }
 
 .question {
-    margin-bottom: 3vw;
+    margin-bottom: 1.5vw;
+    border-radius: 20px;
+    width: 45vw;
+    position: relative;
+    top: 6vw;
+    left: 29vw;
+    cursor: pointer;
+    height: 5vw;
+    -webkit-box-shadow: 0px 0px 32px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 32px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 32px -9px rgba(0, 0, 0, 0.75);
+}
+
+.question-active {
+    height: 10vw !important;
 }
 
 .questions-title {
     font-weight: 600;
     position: relative;
-    top: 4vw;
+    top: 1.4vw;
     text-align: left;
-    left: 28.5vw;
-    font-size: 1.5vw;
+    left: 4vw;
+    font-size: 1vw;
 }
 
 .fa-question-circle {
     margin-right: 0.5vw;
 }
 
-.question-desc {
-    width: 45vw;
+
+/**/
+
+.question-desc-1 {
+    width: 39vw;
     position: relative;
-    left: 30.5vw;
-    top: 4vw;
-    font-size: 1.1vw;
+    left: 5.1vw;
+    padding-top: 1vw;
+    font-size: 0.9vw;
     text-align: left;
 }
+
+.question-desc-2 {
+    width: 39vw;
+    position: relative;
+    padding-top: 1vw;
+    left: 5.1vw;
+    font-size: 0.9vw;
+    text-align: left;
+}
+
+.question-desc-3 {
+    width: 39vw;
+    position: relative;
+    left: 5.1vw;
+    padding-top: 1vw;
+    font-size: 0.9vw;
+    text-align: left;
+}
+
+.question-desc-4 {
+    width: 39vw;
+    position: relative;
+    left: 5.1vw;
+    padding-top: 1vw;
+    font-size: 0.9vw;
+    text-align: left;
+}
+
+.question-desc-5 {
+    width: 39vw;
+    position: relative;
+    left: 5.1vw;
+    padding-top: 1vw;
+    font-size: 0.9vw;
+    text-align: left;
+}
+
+.question-desc-6 {
+    width: 39vw;
+    position: relative;
+    padding-top: 1vw;
+    left: 5.1vw;
+    font-size: 0.9vw;
+    text-align: left;
+}
+
+.question-desc-7 {
+    width: 39vw;
+    position: relative;
+    padding-top: 1vw;
+    left: 5.1vw;
+    font-size: 0.9vw;
+    text-align: left;
+}
+
+.question-desc-8 {
+    width: 39vw;
+    position: relative;
+    padding-top: 1vw;
+    left: 5.1vw;
+    font-size: 0.9vw;
+    text-align: left;
+}
+
+.question-desc-9 {
+    width: 39vw;
+    position: relative;
+    padding-top: 1vw;
+    left: 5.1vw;
+    font-size: 0.9vw;
+    text-align: left;
+}
+
+.question-desc-10 {
+    width: 39vw;
+    padding-top: 1vw;
+    position: relative;
+    left: 5.1vw;
+    font-size: 0.9vw;
+    text-align: left;
+}
+
+
+/**/
 
 .questions {
     height: 115vw;
     width: 105vw;
     right: 5vw;
     position: relative;
-    background: rgba(66, 185, 159, 0.1);
-    top: 20vw;
+    background: white;
+    top: 30vw;
 }
 
 .questions button {
@@ -918,7 +1042,7 @@
     outline: none;
     position: relative;
     left: 0vw;
-    top: 4vw;
+    top: 8vw;
     height: 3vw;
     font-weight: 600;
     font-size: 1.2vw;
@@ -927,10 +1051,10 @@
 }
 
 .footer {
-    height: 20vw;
     position: relative;
-    top: 37vw;
+    top: 10vw;
     width: 102vw;
+    background: #CBE6E9;
     right: 2vw;
 }
 
@@ -1021,8 +1145,12 @@
 .footer-down {
     font-family: 'Poppins', sans-serif;
     position: relative;
-    left: 30vw;
-    bottom: 12vw;
+    width: 105vw;
+    background: #1E91A2;
+    height: 2.5vw;
+    text-align: center;
+    bottom: 13vw;
+    color: white;
 }
 
 .footer-down-left {
@@ -1040,4 +1168,139 @@
     position: relative;
     left: 20vw;
     padding-top: 4vw;
+}
+
+
+/*B2B*/
+
+.b2b-section {
+    width: 80vw;
+    margin: 0 auto;
+    top: 50vw;
+    position: relative;
+    height: 30vw;
+    background: #F4FDFC;
+}
+
+.b2b-section img {
+    position: relative;
+    left: 50vw;
+    height: 30vw;
+    bottom: 23.5vw;
+}
+
+.b2b-section p {
+    position: relative;
+    left: 3vw;
+}
+
+.b2b-title {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    font-size: 2.5vw;
+    top: 0.7vw;
+    font-weight: 600;
+}
+
+.b2b-text {
+    position: relative;
+    top: 2vw;
+}
+
+.distro-1-text {
+    position: relative;
+    left: 60vw;
+    bottom: 15vw;
+}
+
+.distro-1 {
+    width: 100vw;
+    top: 50vw;
+    position: relative;
+}
+
+.distro-1 img {
+    width: 40vw;
+    position: relative;
+    top: 15vw;
+    left: 15vw;
+}
+
+.distro-1-title {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    font-size: 1.5vw;
+    font-weight: 600;
+    width: 24vw;
+}
+
+.distro-1-text ul>li {
+    list-style-type: none;
+}
+
+.distro-1-card-title {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    font-size: 1vw;
+    font-weight: 600;
+}
+
+.distro-1-card-desc {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    font-size: 1vw;
+    font-weight: 400;
+    width: 25vw;
+}
+
+.distro-1-text i {
+    position: relative;
+    top: 1.3vw;
+    color: #ed6664;
+    right: 1.5vw;
+}
+
+.distro-2 {
+    width: 120vw;
+    background: #F4FDFC;
+    position: relative;
+    top: 35vw;
+    height: 40vw;
+}
+
+.distro-2 img {
+    width: 40vw;
+    position: absolute;
+    left: 55vw;
+    bottom: 10vw;
+}
+
+.distro-2-text {
+    position: relative;
+    left: 15vw;
+    top: 5vw;
+}
+
+.distro-2-text ul>li {
+    list-style-type: none;
+}
+
+.distro-2-text i {
+    position: relative;
+    top: 1.3vw;
+    color: #ed6664;
+    right: 1.5vw;
+}
+
+.questions-title i {
+    position: relative;
+    right: 1.5vw;
+    color: #1E91A2;
+}
+
+.down-text {
+    position: relative;
+    left: 33vw;
+    top: 0.5vw;
+    font-size: 1vw;
 }
