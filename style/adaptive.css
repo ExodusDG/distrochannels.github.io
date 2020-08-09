@@ -3,6 +3,15 @@
                 left: 0.9vw !important;
                 bottom: 1vw !important;
             }
+            .buy-card {
+                height: 22vw !important;
+            }
+            .questions {
+                height: 119vw !important;
+            }
+            .distro-cards {
+                height: 35vw !important;
+            }
         }
         
         @media (max-width: 1400px) {
@@ -23,6 +32,24 @@
             .slider-buttons {
                 bottom: 2vw !important;
             }
+            .distro-cards {
+                height: 35vw !important;
+            }
+        }
+        
+        @media (max-width: 1200px) {
+            .buy-card-price {
+                height: 10vw !important;
+            }
+            .buy-card {
+                height: 25vw !important;
+            }
+            .questions {
+                height: 122vw !important;
+            }
+            .distro-cards {
+                height: 36vw !important;
+            }
         }
         
         @media (max-width: 1024px) {
@@ -34,17 +61,59 @@
             .card-buy-button {
                 bottom: 2.5vw !important;
             }
+            .buy-card-price {
+                height: 10vw !important;
+            }
+            .buy-card {
+                height: 27vw !important;
+            }
+            .header-top-input {
+                height: 23vw !important;
+            }
+            .distro-cards {
+                height: 38vw !important;
+            }
+            .questions {
+                height: 124vw !important;
+            }
+            .footer-down-left {
+                right: 20vw !important;
+                font-size: 1vw !important;
+            }
+            .footer-down-right {
+                font-size: 1vw !important;
+            }
         }
         
         @media (max-width: 768px) {
             .navbar img {
-                width: 30vw !important;
+                width: 35vw !important;
                 position: relative !important;
-                right: 5vw !important;
+                left: 14vw !important;
+            }
+            .header {
+                height: 68vw !important;
+            }
+            .logo-title {
+                top: 0vw !important;
+            }
+            .header-image {
+                position: relative;
+                width: 48vw;
+                height: 35vw !important;
+                left: 25vw !important;
+            }
+            .header-button {
+                position: relative !important;
+                top: 0vw !important;
+            }
+            .logotype-block-text {
+                top: 15vw !important;
             }
             .header-top-text {
                 position: relative;
                 left: 10vw !important;
+                top: 2vw !important;
                 width: 20vw !important;
             }
             .header-desc {
@@ -53,11 +122,13 @@
                 padding-bottom: 2vw;
             }
             .navbar {
-                width: 100vw !important;
+                width: 120vw !important;
                 margin: 0 auto;
             }
             .navbar li {
                 font-size: 2.2vw !important;
+                position: relative !important;
+                right: 15vw !important;
                 margin-left: 2vw !important;
             }
             .navbar-text {
@@ -68,26 +139,27 @@
             }
             .img-name {
                 position: absolute;
-                left: 26.5vw !important;
+                left: 25.5vw !important;
                 width: 2.5vw !important;
-                top: 4.8vw !important;
+                top: 7.8vw !important;
             }
             .header-top-input {
-                width: 33vw !important;
-                height: 35vw !important;
-                left: 30vw !important;
+                width: 30vw !important;
+                height: 32vw !important;
+                left: 5vw !important;
+                top: 10vw !important;
             }
             .img-email {
                 position: absolute;
-                left: 26.5vw !important;
+                left: 25.5vw !important;
                 width: 2.5vw !important;
-                top: 10.8vw !important;
+                top: 14.8vw !important;
             }
             .img-phone {
                 position: absolute;
-                left: 26.5vw !important;
+                left: 25.5vw !important;
                 width: 2.5vw !important;
-                top: 16.8vw !important;
+                top: 20.8vw !important;
             }
             .input_area {
                 width: 28vw !important;
@@ -100,11 +172,11 @@
                 bottom: 5vw !important;
             }
             .header-top-input p {
-                font-size: 2.8vw !important;
+                font-size: 2.5vw !important;
             }
             .header-body button {
                 padding: 1vw 1vw 1vw 1vw !important;
-                font-size: 1.5vw !important;
+                font-size: 1.2vw !important;
                 position: relative !important;
                 bottom: 2vw !important;
             }
@@ -129,6 +201,9 @@
                 bottom: 8vw !important;
                 right: 4vw;
             }
+            .header-input-button {
+                bottom: 3vw !important;
+            }
             .header-slider-text {
                 bottom: 12.5vw !important;
             }
@@ -136,6 +211,7 @@
                 width: 100vw !important;
                 position: relative;
                 left: 7vw;
+                height: 32vw !important;
                 top: 6vw;
                 margin: 0 auto;
             }
@@ -164,9 +240,10 @@
                 right: 5vw !important;
             }
             .slider-img {
-                width: 75vw !important;
+                width: 50vw !important;
                 position: relative;
-                left: 7vw !important;
+                top: 10vw !important;
+                left: 0vw !important;
             }
             .logo-title-1 {
                 font-size: 2.6vw !important;
@@ -215,14 +292,14 @@
             }
             .logo-row {
                 position: relative !important;
-                top: 20vw !important;
+                top: 0vw !important;
             }
             .logo-title {
                 font-size: 3vw !important;
             }
             .buy-info {
                 top: 20vw !important;
-                right: 13vw !important;
+                right: 14vw !important;
                 padding-bottom: 20vw !important;
             }
             .buy-info-card img {
@@ -250,13 +327,19 @@
             }
             .buy-cards-title {
                 font-size: 2.7vw !important;
-                left: 20vw !important;
+                left: 17vw !important;
+            }
+            .buy-cards {
+                top: 0vw !important;
+            }
+            .device-screen {
+                left: 13vw !important;
             }
             .buy-card {
                 height: 40vw !important;
                 width: 25vw !important;
                 border-radius: 0.5vw;
-                right: 7vw !important;
+                right: 3vw !important;
                 position: relative !important;
                 margin-right: 2vw !important;
             }
@@ -264,16 +347,17 @@
                 font-size: 1.7vw !important;
                 padding-top: 0vw !important;
             }
-            .b2b-cards {
-                left: 17vw !important;
-            }
             .card-buy-price {
                 font-size: 4.5vw !important;
                 padding-bottom: 4vw !important;
             }
+            .b2b-cards {
+                position: relative;
+                left: 16vw !important;
+            }
             .buy__cards {
                 width: 70vw;
-                left: 20vw !important;
+                left: 15vw !important;
             }
             .card-buy-name {
                 font-size: 1.5vw !important;
@@ -283,16 +367,23 @@
             }
             .buy-card-button {
                 font-size: 2vw !important;
-                left: 4vw !important;
+                left: 7vw !important;
             }
             .buy-card-price {
                 height: 14vw !important;
+            }
+            .b2b-cards {
+                left: 11vw !important;
             }
             .buy-card p {
                 margin-bottom: 0.5rem !important;
             }
             .buy-card-body {
                 font-size: 1.6vw !important;
+            }
+            .distro-card-list {
+                left: 0vw !important;
+                top: 2vw !important;
             }
             .buy-card-more {
                 font-size: 1.9vw !important;
@@ -313,21 +404,22 @@
                 width: 17vw !important;
                 font-size: 1.5vw !important;
             }
-            .distro-card-list {
-                left: 10vw !important;
-                top: 0vw !important;
-            }
             .distro-card p {
                 margin-bottom: 0.3rem !important;
             }
             .distro-cards {
-                height: 50vw !important;
+                height: 63vw !important;
                 width: 105vw !important;
                 right: 4vw !important;
             }
+            .distro-card {
+                margin-right: 2vw;
+                padding: 1vw 1vw 1vw 1vw !important;
+            }
             .reviews button {
-                font-size: 3.2vw !important;
+                font-size: 2.5vw !important;
                 left: 35vw !important;
+                height: 5vw !important;
                 font-weight: 500 !important;
             }
             .b2b-card i {
@@ -474,13 +566,33 @@
         
         @media (max-width: 414px) {
             .navbar img {
-                width: 30vw !important;
+                width: 35vw !important;
                 position: relative !important;
-                right: 5vw !important;
+                left: 14vw !important;
+            }
+            .header {
+                height: 68vw !important;
+            }
+            .logo-title {
+                top: 0vw !important;
+            }
+            .header-image {
+                position: relative;
+                width: 48vw;
+                height: 35vw !important;
+                left: 25vw !important;
+            }
+            .header-button {
+                position: relative !important;
+                top: 0vw !important;
+            }
+            .logotype-block-text {
+                top: 15vw !important;
             }
             .header-top-text {
                 position: relative;
                 left: 10vw !important;
+                top: 2vw !important;
                 width: 20vw !important;
             }
             .header-desc {
@@ -489,11 +601,13 @@
                 padding-bottom: 2vw;
             }
             .navbar {
-                width: 100vw !important;
+                width: 120vw !important;
                 margin: 0 auto;
             }
             .navbar li {
                 font-size: 2.2vw !important;
+                position: relative !important;
+                right: 15vw !important;
                 margin-left: 2vw !important;
             }
             .navbar-text {
@@ -504,26 +618,27 @@
             }
             .img-name {
                 position: absolute;
-                left: 26.5vw !important;
+                left: 25.5vw !important;
                 width: 2.5vw !important;
-                top: 4.8vw !important;
+                top: 7.8vw !important;
             }
             .header-top-input {
-                width: 33vw !important;
-                height: 35vw !important;
-                left: 30vw !important;
+                width: 30vw !important;
+                height: 32vw !important;
+                left: 5vw !important;
+                top: 10vw !important;
             }
             .img-email {
                 position: absolute;
-                left: 26.5vw !important;
+                left: 25.5vw !important;
                 width: 2.5vw !important;
-                top: 10.8vw !important;
+                top: 14.8vw !important;
             }
             .img-phone {
                 position: absolute;
-                left: 26.5vw !important;
+                left: 25.5vw !important;
                 width: 2.5vw !important;
-                top: 16.8vw !important;
+                top: 20.8vw !important;
             }
             .input_area {
                 width: 28vw !important;
@@ -536,11 +651,11 @@
                 bottom: 5vw !important;
             }
             .header-top-input p {
-                font-size: 2.8vw !important;
+                font-size: 2.5vw !important;
             }
             .header-body button {
                 padding: 1vw 1vw 1vw 1vw !important;
-                font-size: 1.5vw !important;
+                font-size: 1.2vw !important;
                 position: relative !important;
                 bottom: 2vw !important;
             }
@@ -565,6 +680,9 @@
                 bottom: 8vw !important;
                 right: 4vw;
             }
+            .header-input-button {
+                bottom: 3vw !important;
+            }
             .header-slider-text {
                 bottom: 12.5vw !important;
             }
@@ -572,6 +690,7 @@
                 width: 100vw !important;
                 position: relative;
                 left: 7vw;
+                height: 32vw !important;
                 top: 6vw;
                 margin: 0 auto;
             }
@@ -600,9 +719,10 @@
                 right: 5vw !important;
             }
             .slider-img {
-                width: 75vw !important;
+                width: 50vw !important;
                 position: relative;
-                left: 7vw !important;
+                top: 10vw !important;
+                left: 0vw !important;
             }
             .logo-title-1 {
                 font-size: 2.6vw !important;
@@ -651,14 +771,14 @@
             }
             .logo-row {
                 position: relative !important;
-                top: 20vw !important;
+                top: 0vw !important;
             }
             .logo-title {
                 font-size: 3vw !important;
             }
             .buy-info {
                 top: 20vw !important;
-                right: 13vw !important;
+                right: 14vw !important;
                 padding-bottom: 20vw !important;
             }
             .buy-info-card img {
@@ -686,13 +806,19 @@
             }
             .buy-cards-title {
                 font-size: 2.7vw !important;
-                left: 20vw !important;
+                left: 17vw !important;
+            }
+            .buy-cards {
+                top: 0vw !important;
+            }
+            .device-screen {
+                left: 13vw !important;
             }
             .buy-card {
                 height: 40vw !important;
                 width: 25vw !important;
                 border-radius: 0.5vw;
-                right: 7vw !important;
+                right: 3vw !important;
                 position: relative !important;
                 margin-right: 2vw !important;
             }
@@ -700,16 +826,17 @@
                 font-size: 1.7vw !important;
                 padding-top: 0vw !important;
             }
-            .b2b-cards {
-                left: 17vw !important;
-            }
             .card-buy-price {
                 font-size: 4.5vw !important;
                 padding-bottom: 4vw !important;
             }
+            .b2b-cards {
+                position: relative;
+                left: 16vw !important;
+            }
             .buy__cards {
                 width: 70vw;
-                left: 20vw !important;
+                left: 15vw !important;
             }
             .card-buy-name {
                 font-size: 1.5vw !important;
@@ -719,16 +846,23 @@
             }
             .buy-card-button {
                 font-size: 2vw !important;
-                left: 4vw !important;
+                left: 7vw !important;
             }
             .buy-card-price {
                 height: 14vw !important;
+            }
+            .b2b-cards {
+                left: 11vw !important;
             }
             .buy-card p {
                 margin-bottom: 0.5rem !important;
             }
             .buy-card-body {
                 font-size: 1.6vw !important;
+            }
+            .distro-card-list {
+                left: 0vw !important;
+                top: 2vw !important;
             }
             .buy-card-more {
                 font-size: 1.9vw !important;
@@ -749,21 +883,22 @@
                 width: 17vw !important;
                 font-size: 1.5vw !important;
             }
-            .distro-card-list {
-                left: 10vw !important;
-                top: 0vw !important;
-            }
             .distro-card p {
                 margin-bottom: 0.3rem !important;
             }
             .distro-cards {
-                height: 50vw !important;
+                height: 63vw !important;
                 width: 105vw !important;
                 right: 4vw !important;
             }
+            .distro-card {
+                margin-right: 2vw;
+                padding: 1vw 1vw 1vw 1vw !important;
+            }
             .reviews button {
-                font-size: 3.2vw !important;
+                font-size: 2.5vw !important;
                 left: 35vw !important;
+                height: 5vw !important;
                 font-weight: 500 !important;
             }
             .b2b-card i {
@@ -910,13 +1045,30 @@
         
         @media (max-width: 375px) {
             .navbar img {
-                width: 30vw !important;
+                width: 35vw !important;
                 position: relative !important;
-                right: 5vw !important;
+                left: 14vw !important;
+            }
+            .header {
+                height: 68vw !important;
+            }
+            .header-image {
+                position: relative;
+                width: 48vw;
+                height: 35vw !important;
+                left: 25vw !important;
+            }
+            .header-button {
+                position: relative !important;
+                top: 0vw !important;
+            }
+            .logotype-block-text {
+                top: 15vw !important;
             }
             .header-top-text {
                 position: relative;
                 left: 10vw !important;
+                top: 2vw !important;
                 width: 20vw !important;
             }
             .header-desc {
@@ -925,11 +1077,13 @@
                 padding-bottom: 2vw;
             }
             .navbar {
-                width: 100vw !important;
+                width: 120vw !important;
                 margin: 0 auto;
             }
             .navbar li {
                 font-size: 2.2vw !important;
+                position: relative !important;
+                right: 15vw !important;
                 margin-left: 2vw !important;
             }
             .navbar-text {
@@ -940,26 +1094,27 @@
             }
             .img-name {
                 position: absolute;
-                left: 26.5vw !important;
+                left: 25.5vw !important;
                 width: 2.5vw !important;
-                top: 4.8vw !important;
+                top: 7.8vw !important;
             }
             .header-top-input {
-                width: 33vw !important;
-                height: 35vw !important;
-                left: 35vw !important;
+                width: 30vw !important;
+                height: 32vw !important;
+                left: 5vw !important;
+                top: 10vw !important;
             }
             .img-email {
                 position: absolute;
-                left: 26.5vw !important;
+                left: 25.5vw !important;
                 width: 2.5vw !important;
-                top: 11.8vw !important;
+                top: 14.8vw !important;
             }
             .img-phone {
                 position: absolute;
-                left: 26.5vw !important;
+                left: 25.5vw !important;
                 width: 2.5vw !important;
-                top: 17.8vw !important;
+                top: 20.8vw !important;
             }
             .input_area {
                 width: 28vw !important;
@@ -972,7 +1127,7 @@
                 bottom: 5vw !important;
             }
             .header-top-input p {
-                font-size: 2.8vw !important;
+                font-size: 2.5vw !important;
             }
             .header-body button {
                 padding: 1vw 1vw 1vw 1vw !important;
@@ -1001,6 +1156,9 @@
                 bottom: 8vw !important;
                 right: 4vw;
             }
+            .header-input-button {
+                bottom: 3vw !important;
+            }
             .header-slider-text {
                 bottom: 12.5vw !important;
             }
@@ -1008,6 +1166,7 @@
                 width: 100vw !important;
                 position: relative;
                 left: 7vw;
+                height: 32vw !important;
                 top: 6vw;
                 margin: 0 auto;
             }
@@ -1036,9 +1195,10 @@
                 right: 5vw !important;
             }
             .slider-img {
-                width: 75vw !important;
+                width: 50vw !important;
                 position: relative;
-                left: 7vw !important;
+                top: 10vw !important;
+                left: 0vw !important;
             }
             .logo-title-1 {
                 font-size: 2.6vw !important;
@@ -1087,7 +1247,7 @@
             }
             .logo-row {
                 position: relative !important;
-                top: 20vw !important;
+                top: 0vw !important;
             }
             .logo-title {
                 font-size: 3vw !important;
@@ -1124,6 +1284,12 @@
                 font-size: 2.7vw !important;
                 left: 17vw !important;
             }
+            .buy-cards {
+                top: 0vw !important;
+            }
+            .device-screen {
+                left: 13vw !important;
+            }
             .buy-card {
                 height: 40vw !important;
                 width: 25vw !important;
@@ -1156,16 +1322,23 @@
             }
             .buy-card-button {
                 font-size: 2vw !important;
-                left: 4vw !important;
+                left: 7vw !important;
             }
             .buy-card-price {
                 height: 14vw !important;
+            }
+            .b2b-cards {
+                left: 11vw !important;
             }
             .buy-card p {
                 margin-bottom: 0.5rem !important;
             }
             .buy-card-body {
                 font-size: 1.6vw !important;
+            }
+            .distro-card-list {
+                left: 0vw !important;
+                top: 2vw !important;
             }
             .buy-card-more {
                 font-size: 1.9vw !important;
@@ -1186,17 +1359,17 @@
                 width: 17vw !important;
                 font-size: 1.5vw !important;
             }
-            .distro-card-list {
-                left: 10vw !important;
-                top: 0vw !important;
-            }
             .distro-card p {
                 margin-bottom: 0.3rem !important;
             }
             .distro-cards {
-                height: 50vw !important;
+                height: 63vw !important;
                 width: 105vw !important;
                 right: 4vw !important;
+            }
+            .distro-card {
+                margin-right: 2vw;
+                padding: 1vw 1vw 1vw 1vw !important;
             }
             .reviews button {
                 font-size: 2.5vw !important;

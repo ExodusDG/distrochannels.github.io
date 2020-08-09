@@ -6,18 +6,22 @@
 
 .header {
     padding-top: 1vw;
+    background: #007787;
+    height: 50vw;
     position: relative;
 }
 
 .navbar {
-    width: 60vw;
+    width: 90vw;
+    position: relative;
+    right: 5vw;
     margin: 0 auto;
 }
 
 .navbar img {
     width: 20vw;
     position: relative;
-    right: 3vw;
+    left: 14vw;
 }
 
 .navbar li {
@@ -25,6 +29,8 @@
     margin-left: 2.5vw;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
+    position: relative;
+    right: 3vw;
     font-size: 1vw;
 }
 
@@ -34,8 +40,8 @@
 
 .header-sign-button {
     border: none;
-    background: #ed6664;
-    padding: 0.35vw 0.9vw;
+    background: rgb(3, 119, 237);
+    padding: 0.9vw 1.1vw 0.9vw 1.1vw;
     outline: none;
     position: relative;
     left: 2vw;
@@ -44,22 +50,24 @@
 }
 
 .header-sign-button:hover {
-    background: #114b5f;
+    background: rgb(3, 119, 237);
     transition: 0.4s;
 }
 
 .navbar-text li {
     cursor: pointer;
+    color: white;
     transition: 0.4s;
 }
 
 .navbar-text li:hover {
-    color: red;
+    color: rgb(3, 119, 237);
 }
 
 .header-title {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
+    color: white;
     font-size: 2.3vw;
 }
 
@@ -69,6 +77,7 @@
     font-size: 2.5vw;
     width: 35vw;
     position: relative;
+    color: white;
     bottom: 1vw;
     margin: 0 auto;
     padding-bottom: 0vw;
@@ -77,6 +86,7 @@
 .header-desc-1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+    color: white;
     font-size: 1.3vw;
     width: 35vw;
 }
@@ -90,8 +100,32 @@
     font-size: 2vw;
 }
 
+.header-image {
+    position: relative;
+    width: 48vw;
+    left: 10vw;
+}
+
 .header-body {
     padding-top: 4vw;
+}
+
+.header-button {
+    background: #b8e3ff;
+    position: relative;
+    top: 1vw;
+    padding: 1vw 2vw 1vw 2vw;
+    text-align: center;
+    border-radius: 0.5vw;
+    border: none;
+    color: black;
+    font-size: 1vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.header-button:hover {
+    background: #b8e3ff !important;
 }
 
 .input_area {
@@ -99,6 +133,7 @@
     width: 20vw;
     border-radius: 0.3vw;
     height: 3vw;
+    font-size: 1vw;
     margin-bottom: 1vw;
     border: 1px solid #E2E3E7;
 }
@@ -106,13 +141,16 @@
 .img-name {
     position: absolute;
     left: 20.5vw;
+    width: 1.3vw;
     top: 2.8vw;
 }
 
 .header-input-button {
-    background: #ed6664;
+    background: rgb(3, 119, 237);
     color: #EEEEEE;
     border: none;
+    position: relative;
+    bottom: 0vw;
     border-radius: 2vw;
     padding: 0.8vw 1vw 0.8vw 1vw;
     font-size: 0.9vw;
@@ -144,17 +182,19 @@
     position: absolute;
     left: 20.5vw;
     top: 7.0vw;
+    width: 1.3vw;
 }
 
 .img-phone {
     position: absolute;
     left: 20.6vw;
     top: 10.8vw;
+    width: 1.3vw;
 }
 
 .header-input-div {
     position: relative;
-    bottom: 2vw;
+    bottom: 0vw;
 }
 
 .header-body input {
@@ -164,9 +204,9 @@
 
 .header-top-text {
     position: relative;
-    left: 19vw;
+    left: 13vw;
     font-family: Helvetica, sans-serif !important;
-    top: 0vw;
+    top: 5vw;
 }
 
 .header-body button:hover {
@@ -182,9 +222,10 @@
 .header-top-input {
     width: 25vw;
     box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.3);
-    height: 21vw;
+    height: 22vw;
+    top: 8vw;
     position: relative;
-    left: 20vw;
+    left: 15vw;
 }
 
 .header-top-input p {
@@ -266,7 +307,7 @@
 }
 
 .fa-quote-right {
-    color: #ed6664;
+    color: rgb(3, 119, 237);
     position: relative;
     left: 38vw;
     top: 5vw;
@@ -295,9 +336,10 @@
 }
 
 .slider-img {
-    width: 60vw;
+    width: 50vw;
     position: relative;
-    left: 18vw;
+    left: 7vw;
+    top: 5vw;
     box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.4);
 }
 
@@ -362,6 +404,8 @@
 .logo-title {
     font-size: 1.6vw;
     padding-bottom: 10vw;
+    position: relative;
+    top: 4vw;
 }
 
 .logo-title-1 {
@@ -396,8 +440,8 @@
 }
 
 .logo-button {
-    border: 0.1vw solid #ed6664;
-    background: #ed6664;
+    border: 0.1vw solid rgb(3, 119, 237);
+    background: rgb(3, 119, 237);
     color: white;
     padding: 0.5vw 1.2vw 0.5vw 1.2vw;
     font-size: 1.3vw;
@@ -476,7 +520,7 @@
     font-weight: 600;
     font-size: 1.3vw;
     font-family: "Poppins", Helvetica, sans-serif;
-    background: #ed6664;
+    background: rgb(3, 119, 237);
     border: none;
     padding: 0.8vw 1.8vw 0.8vw 1.8vw;
 }
@@ -556,7 +600,7 @@
     font-weight: 700;
     bottom: 0vw;
     color: white;
-    background: #ed6664;
+    background: rgb(3, 119, 237);
     border-radius: 0.5vw;
     padding: 0.5vw 2.5vw 0.5vw 2.5vw;
     border: none;
@@ -594,9 +638,9 @@
 }
 
 .pre-footer-button {
-    border: 0.1vw solid #ed6664;
+    border: 0.1vw solid rgb(3, 119, 237);
     background: white;
-    color: #ed6664;
+    color: rgb(3, 119, 237);
     padding: 0.4vw 1.2vw 0.4vw 1.2vw;
     font-size: 1.3vw;
     border-radius: 0.5vw;
@@ -618,12 +662,19 @@
 
 .b2b-cards {
     position: relative;
-    left: 26vw;
+    left: 22vw;
     top: 10vw;
 }
 
 .b2b-card {
     margin-right: 5vw;
+    padding: 1vw 2vw 1vw 2vw;
+    border-radius: 0.5vw;
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 7px 5px rgba(168, 168, 168, 0.5);
+    -moz-box-shadow: 0px 0px 7px 5px rgba(168, 168, 168, 0.5);
+    -o-box-shadow: 0px 0px 7px 5px rgba(168, 168, 168, 0.5);
+    box-shadow: 0px 0px 7px 5px rgba(168, 168, 168, 0.5);
 }
 
 .b2b-card-title {
@@ -644,7 +695,7 @@
     width: 0vw;
     height: 0.2vw;
     border-radius: 1vw;
-    background: #ed6664;
+    background: rgb(3, 119, 237);
 }
 
 .b2b-card:hover .b2b-hr {
@@ -652,7 +703,7 @@
 }
 
 .distro-cards {
-    height: 30vw;
+    height: 33vw;
     width: 102vw;
     right: 2vw;
     background: rgba(66, 185, 159, 0.1);
@@ -682,12 +733,20 @@
 
 .distro-card-list {
     position: relative;
-    left: 25vw;
-    top: 5vw;
+    left: 13vw;
+    top: 3vw;
 }
 
 .distro-card {
-    margin-right: 1vw;
+    margin-right: 2vw;
+    background: white;
+    border-radius: 0.4vw;
+    padding: 1vw 2vw 1vw 2vw;
+    margin-bottom: 2vw;
+    -webkit-box-shadow: 0px 0px 7px 5px rgba(168, 168, 168, 0.5);
+    -moz-box-shadow: 0px 0px 7px 5px rgba(168, 168, 168, 0.5);
+    -o-box-shadow: 0px 0px 7px 5px rgba(168, 168, 168, 0.5);
+    box-shadow: 0px 0px 7px 5px rgba(168, 168, 168, 0.5);
 }
 
 .rev-title {
@@ -708,7 +767,7 @@
 
 .reviews button {
     border: none;
-    background: #ed6664;
+    background: rgb(3, 119, 237);
     padding: 0.35vw 1.3vw;
     outline: none;
     position: relative;
@@ -815,7 +874,7 @@
 
 .questions button {
     border: none;
-    background: #ed6664;
+    background: rgb(3, 119, 237);
     padding: 0.35vw 1.3vw;
     outline: none;
     position: relative;
@@ -935,4 +994,11 @@
 .footer-down-right {
     position: relative;
     left: 23vw;
+}
+
+.device-screen {
+    width: 70vw;
+    position: relative;
+    left: 20vw;
+    padding-top: 4vw;
 }
