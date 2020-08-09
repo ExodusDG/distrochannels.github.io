@@ -1008,7 +1008,7 @@
                                     height: 53vw !important;
                                 }
                                 .b2b-section img {
-                                    bottom: 45.5vw !important;
+                                    bottom: 40.5vw !important;
                                     left: 47.5vw !important;
                                 }
                                 .distro-1 {
@@ -1252,13 +1252,17 @@
                                 }
                                 .questions-title-2 {
                                     font-size: 3.5vw;
-                                    top: 10vw !important;
+                                    top: 6vw !important;
                                     font-weight: 700 !important;
                                 }
                                 .footer-left img {
                                     width: 35vw !important;
                                     right: 30vw !important;
                                     top: 4vw;
+                                }
+                                .questions-button {
+                                    position: relative !important;
+                                    top: 2vw !important;
                                 }
                                 .footer-left-desc {
                                     width: 30vw !important;
@@ -1596,11 +1600,11 @@
                                     margin-right: 2vw !important;
                                 }
                                 .b2b-section {
-                                    top: 70vw !important;
+                                    top: 78vw !important;
                                     height: 53vw !important;
                                 }
                                 .b2b-section img {
-                                    bottom: 45.5vw !important;
+                                    bottom: 40.5vw !important;
                                     left: 47.5vw !important;
                                 }
                                 .distro-1 {
