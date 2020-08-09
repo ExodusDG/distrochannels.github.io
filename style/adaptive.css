@@ -1,1528 +1,1891 @@
-        @media (max-width: 1600px) {
-            .card-buy-button {
-                left: 0.9vw !important;
-                bottom: 1vw !important;
-            }
-            .buy-card {
-                height: 22vw !important;
-            }
-            .questions {
-                height: 119vw !important;
-            }
-            .distro-cards {
-                height: 35vw !important;
-            }
-        }
-        
-        @media (max-width: 1400px) {
-            .card-buy-button {
-                padding: 0.3vw 1.8vw 0.3vw 1.8vw !important;
-                font-size: 1vw !important;
-                left: 1.2vw !important;
-            }
-            .buy-card {
-                height: 23vw !important;
-            }
-            .header-slider-text {
-                width: 35vw !important;
-            }
-            .header-slider-auth {
-                bottom: 6vw !important;
-            }
-            .slider-buttons {
-                bottom: 2vw !important;
-            }
-            .distro-cards {
-                height: 35vw !important;
-            }
-            .footer {
-                top: 20vw !important;
-            }
-        }
-        
-        @media (max-width: 1200px) {
-            .buy-card-price {
-                height: 10vw !important;
-            }
-            .buy-card {
-                height: 25vw !important;
-            }
-            .questions {
-                height: 122vw !important;
-            }
-            .distro-cards {
-                height: 36vw !important;
-            }
-        }
-        
-        @media (max-width: 1024px) {
-            .card-small-desc {
-                position: relative;
-                bottom: 1.5vw !important;
-                padding-bottom: 0vw !important;
-            }
-            .card-buy-button {
-                bottom: 2.5vw !important;
-            }
-            .buy-card-price {
-                height: 10vw !important;
-            }
-            .buy-card {
-                height: 27vw !important;
-            }
-            .header-top-input {
-                height: 23vw !important;
-            }
-            .distro-cards {
-                height: 38vw !important;
-            }
-            .questions {
-                height: 124vw !important;
-            }
-            .footer-down-left {
-                right: 20vw !important;
-                font-size: 1vw !important;
-            }
-            .footer-down-right {
-                font-size: 1vw !important;
-            }
-        }
-        
-        @media (max-width: 768px) {
-            .navbar img {
-                width: 35vw !important;
-                position: relative !important;
-                left: 14vw !important;
-            }
-            .header {
-                height: 68vw !important;
-            }
-            .logo-title {
-                top: 0vw !important;
-            }
-            .header-image {
-                position: relative;
-                width: 48vw;
-                height: 35vw !important;
-                left: 25vw !important;
-            }
-            .header-button {
-                position: relative !important;
-                top: 0vw !important;
-            }
-            .logotype-block-text {
-                top: 15vw !important;
-            }
-            .header-top-text {
-                position: relative;
-                left: 10vw !important;
-                top: 2vw !important;
-                width: 20vw !important;
-            }
-            .header-desc {
-                width: 30vw !important;
-                margin: 0 auto;
-                padding-bottom: 2vw;
-            }
-            .navbar {
-                width: 120vw !important;
-                margin: 0 auto;
-            }
-            .navbar li {
-                font-size: 2.2vw !important;
-                position: relative !important;
-                right: 15vw !important;
-                margin-left: 2vw !important;
-            }
-            .navbar-text {
-                right: 5vw !important;
-            }
-            .header-title {
-                font-size: 4vw !important;
-            }
-            .img-name {
-                position: absolute;
-                left: 25.5vw !important;
-                width: 2.5vw !important;
-                top: 7.8vw !important;
-            }
-            .header-top-input {
-                width: 30vw !important;
-                height: 32vw !important;
-                left: 5vw !important;
-                top: 10vw !important;
-            }
-            .img-email {
-                position: absolute;
-                left: 25.5vw !important;
-                width: 2.5vw !important;
-                top: 14.8vw !important;
-            }
-            .img-phone {
-                position: absolute;
-                left: 25.5vw !important;
-                width: 2.5vw !important;
-                top: 20.8vw !important;
-            }
-            .input_area {
-                width: 28vw !important;
-                height: 5vw !important;
-                font-size: 1.7vw !important;
-                margin-bottom: 0vw !important;
-            }
-            .header-input-div {
-                position: relative;
-                bottom: 5vw !important;
-            }
-            .header-top-input p {
-                font-size: 2.5vw !important;
-            }
-            .header-body button {
-                padding: 1vw 1vw 1vw 1vw !important;
-                font-size: 1.2vw !important;
-                position: relative !important;
-                bottom: 2vw !important;
-            }
-            .logotype-block-text {
-                width: 110vw !important;
-                position: relative;
-                right: 10vw !important;
-            }
-            .logotype-block-text p {
-                font-size: 2.5vw !important;
-                width: 60vw !important;
-                left: 22vw !important;
-            }
-            .header-down-text {
-                font-size: 2.5vw !important;
-            }
-            .slick-list {
-                width: 100vw !important;
-            }
-            .slide img {
-                width: 16vw !important;
-                bottom: 8vw !important;
-                right: 4vw;
-            }
-            .header-input-button {
-                bottom: 3vw !important;
-            }
-            .header-slider-text {
-                bottom: 12.5vw !important;
-            }
-            .header-slider {
-                width: 100vw !important;
-                position: relative;
-                left: 7vw;
-                height: 32vw !important;
-                top: 6vw;
-                margin: 0 auto;
-            }
-            .slide {
-                width: 80vw !important;
-                height: 15vw !important;
-                margin: 2vw 5vw 2vw 2vw;
-                position: relative !important;
-                left: 8vw !important;
-            }
-            .header-slider-text {
-                position: relative;
-                width: 60vw !important;
-                font-size: 2.5vw !important;
-                left: 12vw !important;
-                bottom: 20vw !important;
-            }
-            .fa-quote-right {
-                left: 73vw !important;
-                top: 8vw !important;
-                font-size: 2vw !important;
-            }
-            .body-title {
-                font-size: 2.9vw !important;
-                position: relative;
-                right: 5vw !important;
-            }
-            .slider-img {
-                width: 50vw !important;
-                position: relative;
-                top: 10vw !important;
-                left: 0vw !important;
-            }
-            .logo-title-1 {
-                font-size: 2.6vw !important;
-                width: 70vw !important;
-                left: 10vw !important;
-            }
-            .logo-title {
-                padding-top: 30vw !important;
-                padding-bottom: 0vw !important;
-            }
-            .logo-button {
-                font-size: 2.3vw !important;
-            }
-            .slider-buttons {
-                height: 70vw;
-                position: relative;
-                left: 0vw !important;
-            }
-            .demo-button p {
-                font-size: 2vw !important;
-            }
-            .demo-button-text {
-                width: 30vw !important;
-            }
-            .demo-button-text span {
-                font-size: 1.5vw !important;
-            }
-            .demo-button p {
-                margin-bottom: 0rem !important;
-            }
-            .demo-button img {
-                width: 4vw !important;
-                right: 4vw !important;
-                top: 0.4vw;
-            }
-            .demo-button {
-                margin-bottom: 0rem !important;
-            }
-            .slider-buttons {
-                bottom: 5vw !important;
-            }
-            .demo-button-active {
-                background: transparent !important;
-                border: 1px solid transparent !important;
-                box-shadow: 2px 2px 8px transparent !important;
-            }
-            .logo-row {
-                position: relative !important;
-                top: 0vw !important;
-            }
-            .logo-title {
-                font-size: 3vw !important;
-            }
-            .buy-info {
-                top: 20vw !important;
-                right: 14vw !important;
-                padding-bottom: 20vw !important;
-            }
-            .logotype-list img {
-                width: 80vw !important;
-                position: relative;
-                left: 5vw !important;
-            }
-            .buy-info-title {
-                font-size: 2.5vw !important;
-                width: 20vw !important;
-            }
-            .buy-info-desc {
-                font-size: 2vw !important;
-                width: 20vw !important;
-            }
-            .buy__cards {
-                width: 90vw !important;
-                margin: 0 auto;
-                left: 0vw;
-                position: relative;
-                padding-top: 10vw;
-            }
-            .buy-cards-title {
-                font-size: 2.7vw !important;
-                left: 17vw !important;
-            }
-            .buy-cards {
-                top: 0vw !important;
-            }
-            .device-screen {
-                left: 13vw !important;
-            }
-            .buy-card {
-                height: 40vw !important;
-                width: 25vw !important;
-                border-radius: 0.5vw;
-                right: 3vw !important;
-                position: relative !important;
-                margin-right: 2vw !important;
-            }
-            .card-buy-desc {
-                font-size: 1.7vw !important;
-                padding-top: 0vw !important;
-            }
-            .card-buy-price {
-                font-size: 4.5vw !important;
-                padding-bottom: 4vw !important;
-            }
-            .b2b-cards {
-                position: relative;
-                left: 16vw !important;
-            }
-            .buy__cards {
-                width: 70vw;
-                left: 15vw !important;
-            }
-            .card-buy-name {
-                font-size: 1.5vw !important;
-            }
-            .card-buy-price sup {
-                font-size: 2.5vw !important;
-            }
-            .buy-card-button {
-                font-size: 2vw !important;
-                left: 7vw !important;
-            }
-            .buy-card-price {
-                height: 14vw !important;
-            }
-            .b2b-cards {
-                left: 11vw !important;
-            }
-            .buy-card p {
-                margin-bottom: 0.5rem !important;
-            }
-            .buy-card-body {
-                font-size: 1.6vw !important;
-            }
-            .distro-card-list {
-                left: 0vw !important;
-                top: 2vw !important;
-            }
-            .buy-card-more {
-                font-size: 1.9vw !important;
-            }
-            .buy-card-body hr {
-                margin-bottom: 0rem !important;
-                margin-top: 0rem !important;
-            }
-            .distro-cards-title {
-                font-size: 2.7vw !important;
-            }
-            .distro-title {
-                font-size: 2.3vw !important;
-                width: 20vw !important;
-                font-weight: 700 !important;
-            }
-            .distro-desc {
-                width: 17vw !important;
-                font-size: 1.5vw !important;
-            }
-            .distro-card p {
-                margin-bottom: 0.3rem !important;
-            }
-            .distro-cards {
-                height: 63vw !important;
-                width: 105vw !important;
-                right: 4vw !important;
-            }
-            .distro-card {
-                margin-right: 2vw;
-                padding: 1vw 1vw 1vw 1vw !important;
-            }
-            .reviews button {
-                font-size: 2.5vw !important;
-                left: 35vw !important;
-                height: 5vw !important;
-                font-weight: 500 !important;
-            }
-            .b2b-card i {
-                font-size: 5vw !important;
-            }
-            .b2b-card-desc {
-                width: 28vw !important;
-                font-size: 1.6vw !important;
-            }
-            .b2b-card-title {
-                font-size: 2.5vw !important;
-            }
-            .pre-footer-title {
-                top: 9vw !important;
-                right: 0vw !important;
-            }
-            .month-price {
-                font-size: 1vw !important;
-                bottom: 6.3vw !important;
-            }
-            .card-small-desc {
-                font-size: 1.2vw !important;
-                position: relative;
-                bottom: 6vw !important;
-                left: 3vw !important;
-            }
-            .card-buy-button {
-                padding: 0.3vw 1.8vw 0.3vw 1.8vw !important;
-                font-size: 2vw !important;
-                left: 3vw !important;
-                bottom: 9vw !important;
-            }
-            .card-desc {
-                font-family: 'Source Sans Pro', sans-serif;
-                font-weight: 300;
-                font-size: 1.7vw !important;
-                position: relative;
-                top: 1vw;
-                left: 4vw !important;
-            }
-            .pre-footer-title {
-                font-size: 3.5vw !important;
-            }
-            .footer {
-                height: 10vw !important;
-                position: relative;
-                top: 60vw !important;
-                width: 105vw !important;
-                right: 5vw !important;
-            }
-            .footer p {
-                font-size: 2vw !important;
-            }
-            .rev-title {
-                left: 10vw !important;
-                position: relative;
-                font-size: 2.8vw !important;
-            }
-            .reviews-block img {
-                border-radius: 10vw !important;
-                border: 2px solid #424242;
-                width: 12vw !important;
-                height: 12vw !important;
-            }
-            .rev-title-block {
-                font-size: 2.5vw !important;
-            }
-            .rev-title-desc {
-                width: 50vw !important;
-                font-size: 1.3vw !important;
-            }
-            .rev-text p {
-                margin-bottom: 0rem !important;
-            }
-            .rev-text {
-                left: 3vw !important;
-            }
-            .reviews-block {
-                left: 20vw !important;
-            }
-            .questions {
-                position: relative;
-                top: 60vw !important;
-                height: 270vw !important;
-            }
-            .question-title {
-                font-size: 3.5vw !important;
-                font-weight: 700 !important;
-            }
-            .questions-title {
-                font-size: 3vw !important;
-                width: 80vw !important;
-            }
-            .question-desc {
-                font-size: 1.8vw !important;
-            }
-            .question {
-                position: relative !important;
-                right: 6vw !important;
-            }
-            .questions-title-2 {
-                font-size: 3.5vw;
-                top: 4vw !important;
-                font-weight: 700 !important;
-            }
-            .footer-left img {
-                width: 35vw !important;
-                right: 30vw !important;
-                top: 4vw;
-            }
-            .footer-left-desc {
-                width: 30vw !important;
-                left: 10vw !important;
-            }
-            .footer-left-link {
-                right: 35vw !important;
-            }
-            .footer-center {
-                position: relative;
-                left: 38vw !important;
-                bottom: 36vw !important;
-            }
-            .footer-center-link {
-                font-size: 2vw !important;
-            }
-            .footer-right {
-                left: 65vw !important;
-                bottom: 67vw !important;
-            }
-            .footer-left {
-                position: relative !important;
-                left: 0vw !important;
-            }
-            .footer-hr {
-                position: relative;
-                bottom: 40vw !important;
-            }
-            .footer-down {
-                position: relative !important;
-                display: none !important;
-                bottom: 40vw !important;
-            }
-        }
-        
-        @media (max-width: 414px) {
-            .navbar img {
-                width: 35vw !important;
-                position: relative !important;
-                left: 14vw !important;
-            }
-            .header {
-                height: 68vw !important;
-            }
-            .logotype-block {
-                padding-top: 5vw !important;
-            }
-            .logo-title {
-                top: 0vw !important;
-            }
-            .header-image {
-                position: relative;
-                width: 48vw;
-                height: 35vw !important;
-                left: 25vw !important;
-            }
-            .header-button {
-                position: relative !important;
-                top: 0vw !important;
-            }
-            .logotype-block-text {
-                top: 15vw !important;
-            }
-            .header-top-text {
-                position: relative;
-                left: 10vw !important;
-                top: 2vw !important;
-                width: 20vw !important;
-            }
-            .header-desc {
-                width: 30vw !important;
-                margin: 0 auto;
-                padding-bottom: 2vw;
-            }
-            .navbar {
-                width: 120vw !important;
-                margin: 0 auto;
-            }
-            .navbar li {
-                font-size: 2.2vw !important;
-                position: relative !important;
-                right: 15vw !important;
-                margin-left: 2vw !important;
-            }
-            .navbar-text {
-                right: 5vw !important;
-            }
-            .header-title {
-                font-size: 4vw !important;
-            }
-            .img-name {
-                position: absolute;
-                left: 25.5vw !important;
-                width: 2.5vw !important;
-                top: 7.8vw !important;
-            }
-            .header-top-input {
-                width: 30vw !important;
-                height: 32vw !important;
-                left: 5vw !important;
-                top: 10vw !important;
-            }
-            .img-email {
-                position: absolute;
-                left: 25.5vw !important;
-                width: 2.5vw !important;
-                top: 14.8vw !important;
-            }
-            .img-phone {
-                position: absolute;
-                left: 25.5vw !important;
-                width: 2.5vw !important;
-                top: 20.8vw !important;
-            }
-            .input_area {
-                width: 28vw !important;
-                height: 5vw !important;
-                font-size: 1.7vw !important;
-                margin-bottom: 0vw !important;
-            }
-            .header-input-div {
-                position: relative;
-                bottom: 5vw !important;
-            }
-            .header-top-input p {
-                font-size: 2.5vw !important;
-            }
-            .header-body button {
-                padding: 1vw 1vw 1vw 1vw !important;
-                font-size: 1.2vw !important;
-                position: relative !important;
-                bottom: 2vw !important;
-            }
-            .logotype-block-text {
-                width: 110vw !important;
-                position: relative;
-                right: 10vw !important;
-            }
-            .logotype-block-text p {
-                font-size: 2.5vw !important;
-                width: 60vw !important;
-                left: 22vw !important;
-            }
-            .header-down-text {
-                font-size: 2.5vw !important;
-            }
-            .slick-list {
-                width: 100vw !important;
-            }
-            .slide img {
-                width: 16vw !important;
-                bottom: 8vw !important;
-                right: 4vw;
-            }
-            .header-input-button {
-                bottom: 3vw !important;
-            }
-            .header-slider-text {
-                bottom: 12.5vw !important;
-            }
-            .header-slider {
-                width: 100vw !important;
-                position: relative;
-                left: 7vw;
-                height: 32vw !important;
-                top: 6vw;
-                margin: 0 auto;
-            }
-            .slide {
-                width: 80vw !important;
-                height: 15vw !important;
-                margin: 2vw 5vw 2vw 2vw;
-                position: relative !important;
-                left: 8vw !important;
-            }
-            .header-slider-text {
-                position: relative;
-                width: 60vw !important;
-                font-size: 2.5vw !important;
-                left: 12vw !important;
-                bottom: 20vw !important;
-            }
-            .fa-quote-right {
-                left: 73vw !important;
-                top: 8vw !important;
-                font-size: 2vw !important;
-            }
-            .body-title {
-                font-size: 2.9vw !important;
-                position: relative;
-                right: 5vw !important;
-            }
-            .slider-img {
-                width: 50vw !important;
-                position: relative;
-                top: 10vw !important;
-                left: 0vw !important;
-            }
-            .logo-title-1 {
-                font-size: 2.6vw !important;
-                width: 70vw !important;
-                left: 10vw !important;
-            }
-            .logo-title {
-                padding-top: 30vw !important;
-                padding-bottom: 0vw !important;
-            }
-            .logo-button {
-                font-size: 2.3vw !important;
-            }
-            .slider-buttons {
-                height: 70vw;
-                position: relative;
-                left: 0vw !important;
-            }
-            .demo-button p {
-                font-size: 2vw !important;
-            }
-            .demo-button-text {
-                width: 30vw !important;
-            }
-            .demo-button-text span {
-                font-size: 1.5vw !important;
-            }
-            .demo-button p {
-                margin-bottom: 0rem !important;
-            }
-            .demo-button img {
-                width: 4vw !important;
-                right: 4vw !important;
-                top: 0.4vw;
-            }
-            .demo-button {
-                margin-bottom: 0rem !important;
-            }
-            .slider-buttons {
-                bottom: 5vw !important;
-            }
-            .demo-button-active {
-                background: transparent !important;
-                border: 1px solid transparent !important;
-                box-shadow: 2px 2px 8px transparent !important;
-            }
-            .logo-row {
-                position: relative !important;
-                top: 0vw !important;
-            }
-            .logo-title {
-                font-size: 3vw !important;
-            }
-            .buy-info {
-                top: 20vw !important;
-                right: 14vw !important;
-                padding-bottom: 20vw !important;
-            }
-            .logotype-list img {
-                width: 80vw !important;
-                position: relative;
-                left: 5vw !important;
-            }
-            .buy-info-title {
-                font-size: 2.5vw !important;
-                width: 20vw !important;
-            }
-            .buy-info-desc {
-                font-size: 2vw !important;
-                width: 20vw !important;
-            }
-            .buy__cards {
-                width: 90vw !important;
-                margin: 0 auto;
-                left: 0vw;
-                position: relative;
-                padding-top: 10vw;
-            }
-            .buy-cards-title {
-                font-size: 2.7vw !important;
-                left: 17vw !important;
-            }
-            .buy-cards {
-                top: 0vw !important;
-            }
-            .device-screen {
-                left: 13vw !important;
-            }
-            .buy-card {
-                height: 40vw !important;
-                width: 25vw !important;
-                border-radius: 0.5vw;
-                right: 3vw !important;
-                position: relative !important;
-                margin-right: 2vw !important;
-            }
-            .card-buy-desc {
-                font-size: 1.7vw !important;
-                padding-top: 0vw !important;
-            }
-            .card-buy-price {
-                font-size: 4.5vw !important;
-                padding-bottom: 4vw !important;
-            }
-            .b2b-cards {
-                position: relative;
-                left: 16vw !important;
-            }
-            .buy__cards {
-                width: 70vw;
-                left: 15vw !important;
-            }
-            .card-buy-name {
-                font-size: 1.5vw !important;
-            }
-            .card-buy-price sup {
-                font-size: 2.5vw !important;
-            }
-            .buy-card-button {
-                font-size: 2vw !important;
-                left: 7vw !important;
-            }
-            .buy-card-price {
-                height: 14vw !important;
-            }
-            .b2b-cards {
-                left: 11vw !important;
-            }
-            .buy-card p {
-                margin-bottom: 0.5rem !important;
-            }
-            .buy-card-body {
-                font-size: 1.6vw !important;
-            }
-            .distro-card-list {
-                left: 0vw !important;
-                top: 2vw !important;
-            }
-            .buy-card-more {
-                font-size: 1.9vw !important;
-            }
-            .buy-card-body hr {
-                margin-bottom: 0rem !important;
-                margin-top: 0rem !important;
-            }
-            .distro-cards-title {
-                font-size: 2.7vw !important;
-            }
-            .distro-title {
-                font-size: 2.3vw !important;
-                width: 20vw !important;
-                font-weight: 700 !important;
-            }
-            .distro-desc {
-                width: 17vw !important;
-                font-size: 1.5vw !important;
-            }
-            .distro-card p {
-                margin-bottom: 0.3rem !important;
-            }
-            .distro-cards {
-                height: 63vw !important;
-                width: 105vw !important;
-                right: 4vw !important;
-            }
-            .distro-card {
-                margin-right: 2vw;
-                padding: 1vw 1vw 1vw 1vw !important;
-            }
-            .reviews button {
-                font-size: 2.5vw !important;
-                left: 35vw !important;
-                height: 5vw !important;
-                font-weight: 500 !important;
-            }
-            .b2b-card i {
-                font-size: 5vw !important;
-            }
-            .b2b-card-desc {
-                width: 28vw !important;
-                font-size: 1.6vw !important;
-            }
-            .b2b-card-title {
-                font-size: 2.5vw !important;
-            }
-            .pre-footer-title {
-                top: 9vw !important;
-                right: 0vw !important;
-            }
-            .month-price {
-                font-size: 1vw !important;
-                bottom: 6.3vw !important;
-            }
-            .card-small-desc {
-                font-size: 1.2vw !important;
-                position: relative;
-                bottom: 6vw !important;
-                left: 3vw !important;
-            }
-            .card-buy-button {
-                padding: 0.3vw 1.8vw 0.3vw 1.8vw !important;
-                font-size: 2vw !important;
-                left: 3vw !important;
-                bottom: 9vw !important;
-            }
-            .card-desc {
-                font-family: 'Source Sans Pro', sans-serif;
-                font-weight: 300;
-                font-size: 1.7vw !important;
-                position: relative;
-                top: 1vw;
-                left: 4vw !important;
-            }
-            .pre-footer-title {
-                font-size: 3.5vw !important;
-            }
-            .footer {
-                height: 10vw !important;
-                position: relative;
-                top: 60vw !important;
-                width: 105vw !important;
-                right: 5vw !important;
-            }
-            .footer p {
-                font-size: 2vw !important;
-            }
-            .rev-title {
-                left: 10vw !important;
-                position: relative;
-                font-size: 2.8vw !important;
-            }
-            .reviews-block img {
-                border-radius: 10vw !important;
-                border: 2px solid #424242;
-                width: 12vw !important;
-                height: 12vw !important;
-            }
-            .rev-title-block {
-                font-size: 2.5vw !important;
-            }
-            .rev-title-desc {
-                width: 50vw !important;
-                font-size: 1.3vw !important;
-            }
-            .rev-text p {
-                margin-bottom: 0rem !important;
-            }
-            .rev-text {
-                left: 3vw !important;
-            }
-            .reviews-block {
-                left: 20vw !important;
-            }
-            .questions {
-                position: relative;
-                top: 20vw !important;
-                height: 270vw !important;
-            }
-            .question-title {
-                font-size: 3.5vw !important;
-                font-weight: 700 !important;
-            }
-            .questions-title {
-                font-size: 3vw !important;
-                width: 80vw !important;
-            }
-            .question-desc {
-                font-size: 1.8vw !important;
-            }
-            .question {
-                position: relative !important;
-                right: 6vw !important;
-            }
-            .questions-title-2 {
-                font-size: 3.5vw;
-                top: 4vw !important;
-                font-weight: 700 !important;
-            }
-            .questions button {
-                padding: 0.35vw 1.3vw 0.35vw 1.3vw !important;
-            }
-            .footer-left img {
-                width: 35vw !important;
-                right: 30vw !important;
-                top: 4vw;
-            }
-            .footer-left-desc {
-                width: 30vw !important;
-                left: 10vw !important;
-            }
-            .footer-left-link {
-                right: 35vw !important;
-            }
-            .footer-center {
-                position: relative;
-                left: 38vw !important;
-                bottom: 36vw !important;
-            }
-            .footer-center-link {
-                font-size: 2vw !important;
-            }
-            .footer-right {
-                left: 65vw !important;
-                bottom: 67vw !important;
-            }
-            .footer-left {
-                position: relative !important;
-                left: 0vw !important;
-            }
-            .footer-hr {
-                position: relative;
-                bottom: 40vw !important;
-            }
-            .footer-down {
-                position: relative !important;
-                display: none !important;
-                bottom: 40vw !important;
-            }
-        }
-        
-        @media (max-width: 375px) {
-            .navbar img {
-                width: 35vw !important;
-                position: relative !important;
-                left: 14vw !important;
-            }
-            .header {
-                height: 68vw !important;
-            }
-            .header-image {
-                position: relative;
-                width: 48vw;
-                height: 35vw !important;
-                left: 25vw !important;
-            }
-            .header-button {
-                position: relative !important;
-                top: 0vw !important;
-            }
-            .logotype-block {
-                padding-top: 5vw !important;
-            }
-            .logotype-block-text {
-                top: 15vw !important;
-            }
-            .header-top-text {
-                position: relative;
-                left: 10vw !important;
-                top: 2vw !important;
-                width: 20vw !important;
-            }
-            .header-desc {
-                width: 30vw !important;
-                margin: 0 auto;
-                padding-bottom: 2vw;
-            }
-            .navbar {
-                width: 120vw !important;
-                margin: 0 auto;
-            }
-            .navbar li {
-                font-size: 2.2vw !important;
-                position: relative !important;
-                right: 15vw !important;
-                margin-left: 2vw !important;
-            }
-            .navbar-text {
-                right: 5vw !important;
-            }
-            .header-title {
-                font-size: 4vw !important;
-            }
-            .img-name {
-                position: absolute;
-                left: 25.5vw !important;
-                width: 2.5vw !important;
-                top: 4.8vw !important;
-            }
-            .header-top-input {
-                width: 30vw !important;
-                height: 32vw !important;
-                left: 5vw !important;
-                top: 10vw !important;
-            }
-            .img-email {
-                position: absolute;
-                left: 25.5vw !important;
-                width: 2.5vw !important;
-                top: 11.8vw !important;
-            }
-            .img-phone {
-                position: absolute;
-                left: 25.5vw !important;
-                width: 2.5vw !important;
-                top: 17.8vw !important;
-            }
-            .input_area {
-                width: 28vw !important;
-                height: 5vw !important;
-                font-size: 1.7vw !important;
-                margin-bottom: 0vw !important;
-            }
-            .header-input-div {
-                position: relative;
-                bottom: 5vw !important;
-            }
-            .header-top-input p {
-                font-size: 2.5vw !important;
-            }
-            .header-body button {
-                padding: 1vw 1vw 1vw 1vw !important;
-                font-size: 1.2vw !important;
-                position: relative !important;
-                bottom: 2vw !important;
-            }
-            .logotype-block-text {
-                width: 110vw !important;
-                position: relative;
-                right: 20vw !important;
-                font-size: 1.5vw;
-            }
-            .logotype-block-text p {
-                font-size: 2.5vw !important;
-                width: 80vw !important;
-                left: 22vw !important;
-            }
-            .header-down-text {
-                font-size: 2.5vw !important;
-            }
-            .slick-list {
-                width: 100vw !important;
-            }
-            .slide img {
-                width: 16vw !important;
-                bottom: 8vw !important;
-                right: 4vw;
-            }
-            .header-input-button {
-                bottom: 3vw !important;
-            }
-            .header-slider-text {
-                bottom: 12.5vw !important;
-            }
-            .header-slider {
-                width: 100vw !important;
-                position: relative;
-                left: 7vw;
-                height: 32vw !important;
-                top: 6vw;
-                margin: 0 auto;
-            }
-            .slide {
-                width: 80vw !important;
-                height: 15vw !important;
-                margin: 2vw 5vw 2vw 2vw;
-                position: relative !important;
-                left: 8vw !important;
-            }
-            .header-slider-text {
-                position: relative;
-                width: 60vw !important;
-                font-size: 2.5vw !important;
-                left: 12vw !important;
-                bottom: 20vw !important;
-            }
-            .fa-quote-right {
-                left: 73vw !important;
-                top: 8vw !important;
-                font-size: 2vw !important;
-            }
-            .body-title {
-                font-size: 2.9vw !important;
-                position: relative;
-                right: 5vw !important;
-            }
-            .slider-img {
-                width: 50vw !important;
-                position: relative;
-                top: 12vw !important;
-                left: 0vw !important;
-            }
-            .logo-title-1 {
-                font-size: 3vw !important;
-                width: 80vw !important;
-                left: 0vw !important;
-            }
-            .logo-title {
-                padding-top: 30vw !important;
-                padding-bottom: 0vw !important;
-            }
-            .logo-button {
-                font-size: 2.3vw !important;
-                position: relative;
-                right: 5vw;
-            }
-            .slider-buttons {
-                height: 70vw;
-                position: relative;
-                left: 0vw !important;
-            }
-            .demo-button p {
-                font-size: 2vw !important;
-            }
-            .demo-button-text {
-                width: 30vw !important;
-            }
-            .demo-button-text span {
-                font-size: 1.5vw !important;
-            }
-            .demo-button p {
-                margin-bottom: 0rem !important;
-            }
-            .demo-button img {
-                width: 4vw !important;
-                right: 4vw !important;
-                top: 0.4vw;
-            }
-            .demo-button {
-                margin-bottom: 0rem !important;
-            }
-            .slider-buttons {
-                bottom: 5vw !important;
-            }
-            .demo-button-active {
-                background: transparent !important;
-                border: 1px solid transparent !important;
-                box-shadow: 2px 2px 8px transparent !important;
-            }
-            .logo-row {
-                position: relative !important;
-                top: 0vw !important;
-            }
-            .logo-title {
-                font-size: 3vw !important;
-                position: relative;
-                right: 5vw;
-            }
-            .buy-info {
-                top: 20vw !important;
-                right: 14vw !important;
-                padding-bottom: 20vw !important;
-            }
-            .logotype-list img {
-                width: 80vw !important;
-                position: relative;
-                left: 5vw !important;
-            }
-            .buy-info-title {
-                font-size: 2.5vw !important;
-                width: 20vw !important;
-            }
-            .buy-info-desc {
-                font-size: 2vw !important;
-                width: 20vw !important;
-            }
-            .buy__cards {
-                width: 90vw !important;
-                margin: 0 auto;
-                left: 0vw;
-                position: relative;
-                padding-top: 10vw;
-            }
-            .buy-cards-title {
-                font-size: 2.7vw !important;
-                left: 17vw !important;
-            }
-            .buy-cards {
-                top: 0vw !important;
-            }
-            .device-screen {
-                left: 13vw !important;
-            }
-            .buy-card {
-                height: 40vw !important;
-                width: 25vw !important;
-                border-radius: 0.5vw;
-                right: 3vw !important;
-                position: relative !important;
-                margin-right: 2vw !important;
-            }
-            .card-buy-desc {
-                font-size: 1.7vw !important;
-                padding-top: 0vw !important;
-            }
-            .card-buy-price {
-                font-size: 4.5vw !important;
-                padding-bottom: 4vw !important;
-            }
-            .b2b-cards {
-                position: relative;
-                left: 16vw !important;
-            }
-            .buy__cards {
-                width: 70vw;
-                left: 15vw !important;
-            }
-            .card-buy-name {
-                font-size: 1.5vw !important;
-            }
-            .card-buy-price sup {
-                font-size: 2.5vw !important;
-            }
-            .buy-card-button {
-                font-size: 2vw !important;
-                left: 7vw !important;
-            }
-            .buy-card-price {
-                height: 14vw !important;
-            }
-            .b2b-cards {
-                left: 11vw !important;
-            }
-            .buy-card p {
-                margin-bottom: 0.5rem !important;
-            }
-            .buy-card-body {
-                font-size: 1.6vw !important;
-            }
-            .distro-card-list {
-                left: 0vw !important;
-                top: 2vw !important;
-            }
-            .buy-card-more {
-                font-size: 1.9vw !important;
-            }
-            .buy-card-body hr {
-                margin-bottom: 0rem !important;
-                margin-top: 0rem !important;
-            }
-            .distro-cards-title {
-                font-size: 2.7vw !important;
-            }
-            .distro-title {
-                font-size: 2.3vw !important;
-                width: 20vw !important;
-                font-weight: 700 !important;
-            }
-            .distro-desc {
-                width: 17vw !important;
-                font-size: 1.5vw !important;
-            }
-            .distro-card p {
-                margin-bottom: 0.3rem !important;
-            }
-            .distro-cards {
-                height: 63vw !important;
-                width: 105vw !important;
-                right: 4vw !important;
-            }
-            .distro-card {
-                margin-right: 2vw;
-                padding: 1vw 1vw 1vw 1vw !important;
-            }
-            .reviews button {
-                font-size: 2.5vw !important;
-                left: 35vw !important;
-                height: 5vw !important;
-                font-weight: 500 !important;
-            }
-            .b2b-card i {
-                font-size: 5vw !important;
-            }
-            .b2b-card-desc {
-                width: 28vw !important;
-                font-size: 1.6vw !important;
-            }
-            .b2b-card-title {
-                font-size: 2.5vw !important;
-            }
-            .pre-footer-title {
-                top: 9vw !important;
-                right: 0vw !important;
-            }
-            .month-price {
-                font-size: 1vw !important;
-                bottom: 6.3vw !important;
-            }
-            .card-small-desc {
-                font-size: 1.2vw !important;
-                position: relative;
-                bottom: 6vw !important;
-                left: 3vw !important;
-            }
-            .card-buy-button {
-                padding: 0.3vw 1.8vw 0.3vw 1.8vw !important;
-                font-size: 2vw !important;
-                left: 3vw !important;
-                bottom: 9vw !important;
-            }
-            .card-desc {
-                font-family: 'Source Sans Pro', sans-serif;
-                font-weight: 300;
-                font-size: 1.7vw !important;
-                position: relative;
-                top: 1vw;
-                left: 4vw !important;
-            }
-            .pre-footer-title {
-                font-size: 3.5vw !important;
-            }
-            .footer {
-                height: 10vw !important;
-                position: relative;
-                top: 20vw !important;
-                width: 105vw !important;
-                right: 5vw !important;
-            }
-            .footer p {
-                font-size: 2vw !important;
-            }
-            .rev-title {
-                left: 10vw !important;
-                position: relative;
-                font-size: 2.8vw !important;
-            }
-            .reviews-block img {
-                border-radius: 10vw !important;
-                border: 2px solid #424242;
-                width: 12vw !important;
-                height: 12vw !important;
-            }
-            .rev-title-block {
-                font-size: 2.5vw !important;
-            }
-            .rev-title-desc {
-                width: 50vw !important;
-                font-size: 1.3vw !important;
-            }
-            .rev-text p {
-                margin-bottom: 0rem !important;
-            }
-            .rev-text {
-                left: 3vw !important;
-            }
-            .reviews-block {
-                left: 20vw !important;
-            }
-            .questions {
-                position: relative;
-                top: 20vw !important;
-                height: 270vw !important;
-            }
-            .question-title {
-                font-size: 3.5vw !important;
-                font-weight: 700 !important;
-            }
-            .questions-title {
-                font-size: 3vw !important;
-                width: 80vw !important;
-            }
-            .question-desc {
-                font-size: 1.8vw !important;
-            }
-            .question {
-                position: relative !important;
-                right: 6vw !important;
-            }
-            .questions-title-2 {
-                font-size: 3.5vw;
-                top: 4vw !important;
-                font-weight: 700 !important;
-            }
-            .footer-left img {
-                width: 35vw !important;
-                right: 30vw !important;
-                top: 4vw;
-            }
-            .footer-left-desc {
-                width: 30vw !important;
-                left: 10vw !important;
-            }
-            .footer-left-link {
-                right: 35vw !important;
-            }
-            .footer-center {
-                position: relative;
-                left: 38vw !important;
-                bottom: 36vw !important;
-            }
-            .footer-center-link {
-                font-size: 2vw !important;
-            }
-            .footer-right {
-                left: 65vw !important;
-                bottom: 67vw !important;
-            }
-            .footer-left {
-                position: relative !important;
-                left: 0vw !important;
-            }
-            .footer-hr {
-                position: relative;
-                bottom: 40vw !important;
-            }
-            .footer-down {
-                position: relative !important;
-                display: none !important;
-                bottom: 40vw !important;
-            }
-        }
+                            @media (max-width: 1600px) {
+                                .card-buy-button {
+                                    left: 0.9vw !important;
+                                    bottom: 1vw !important;
+                                }
+                                .buy-card {
+                                    height: 22vw !important;
+                                }
+                                .questions {
+                                    height: 110vw !important;
+                                }
+                                .distro-cards {
+                                    height: 35vw !important;
+                                }
+                                .footer-down {
+                                    bottom: 15vw !important;
+                                }
+                            }
+                            
+                            @media (max-width: 1400px) {
+                                .card-buy-button {
+                                    padding: 0.3vw 1.8vw 0.3vw 1.8vw !important;
+                                    font-size: 1vw !important;
+                                    left: 1.2vw !important;
+                                }
+                                .buy-card {
+                                    height: 23vw !important;
+                                }
+                                .header-slider-text {
+                                    width: 35vw !important;
+                                }
+                                .header-slider-auth {
+                                    bottom: 6vw !important;
+                                }
+                                .slider-buttons {
+                                    bottom: 2vw !important;
+                                }
+                                .distro-cards {
+                                    height: 35vw !important;
+                                }
+                                .footer {
+                                    top: 20vw !important;
+                                }
+                                .questions {
+                                    height: 100vw !important;
+                                }
+                            }
+                            
+                            @media (max-width: 1200px) {
+                                .buy-card-price {
+                                    height: 10vw !important;
+                                }
+                                .distro-1 p {
+                                    margin-bottom: 0rem !important;
+                                }
+                                .distro-2 p {
+                                    margin-bottom: 0rem !important;
+                                }
+                                .buy-card {
+                                    height: 25vw !important;
+                                }
+                                .questions {
+                                    height: 100vw !important;
+                                }
+                                .distro-cards {
+                                    height: 36vw !important;
+                                }
+                                .distro-1-text i {
+                                    top: 1.6vw !important;
+                                    right: 2vw !important;
+                                }
+                                .distro-2-text i {
+                                    top: 1.6vw !important;
+                                    right: 2vw !important;
+                                }
+                                .footer-down {
+                                    bottom: 16.5vw !important;
+                                }
+                                .footer-down-left {
+                                    right: 8vw !important;
+                                }
+                                .footer-down-right {
+                                    left: 15vw !important;
+                                }
+                                .footer-center {
+                                    bottom: 10vw !important;
+                                }
+                                .footer-right {
+                                    bottom: 25vw !important;
+                                }
+                            }
+                            
+                            @media (max-width: 1024px) {
+                                .card-small-desc {
+                                    position: relative;
+                                    bottom: 1.5vw !important;
+                                    padding-bottom: 0vw !important;
+                                }
+                                .card-buy-button {
+                                    bottom: 2.5vw !important;
+                                }
+                                .buy-card-price {
+                                    height: 10vw !important;
+                                }
+                                .buy-card {
+                                    height: 27vw !important;
+                                }
+                                .header-top-input {
+                                    height: 23vw !important;
+                                }
+                                .distro-cards {
+                                    height: 38vw !important;
+                                }
+                                .questions {
+                                    height: 95vw !important;
+                                }
+                                .footer-down-left {
+                                    right: 20vw !important;
+                                    font-size: 1vw !important;
+                                }
+                                .footer-down-right {
+                                    font-size: 1vw !important;
+                                }
+                            }
+                            
+                            @media (max-width: 768px) {
+                                .navbar img {
+                                    width: 35vw !important;
+                                    position: relative !important;
+                                    left: 25vw !important;
+                                }
+                                .site-body {
+                                    height: 60vw !important;
+                                }
+                                .logotype-block-titletext {
+                                    top: 15vw !important;
+                                }
+                                .buy-cards {
+                                    height: 60vw !important;
+                                }
+                                .header {
+                                    height: 68vw !important;
+                                }
+                                .distro-1 i {
+                                    top: 2.6vw !important;
+                                    right: 2vw !important;
+                                    font-size: 1vw !important;
+                                }
+                                .distro-1 ul>li {
+                                    bottom: 4vw !important;
+                                    position: relative !important;
+                                }
+                                .distro-2 i {
+                                    top: 2.6vw !important;
+                                    right: 2vw !important;
+                                    font-size: 1vw !important;
+                                }
+                                .distro-1 img {
+                                    top: 20vw !important;
+                                }
+                                .distro-2 {
+                                    top: 55vw !important;
+                                    height: 45vw !important;
+                                }
+                                .header-image {
+                                    position: relative;
+                                    width: 48vw;
+                                    height: 35vw !important;
+                                    left: 25vw !important;
+                                }
+                                .header-button {
+                                    position: relative !important;
+                                    top: 0vw !important;
+                                }
+                                .logotype-block {
+                                    padding-top: 5vw !important;
+                                }
+                                .logotype-block-text {
+                                    top: 15vw !important;
+                                }
+                                .header-top-text {
+                                    position: relative;
+                                    left: 10vw !important;
+                                    top: 2vw !important;
+                                    width: 20vw !important;
+                                }
+                                .header-desc {
+                                    width: 30vw !important;
+                                    margin: 0 auto;
+                                    padding-bottom: 2vw;
+                                }
+                                .navbar {
+                                    width: 120vw !important;
+                                    margin: 0 auto;
+                                }
+                                .navbar li {
+                                    font-size: 2.2vw !important;
+                                    position: relative !important;
+                                    right: 15vw !important;
+                                    margin-left: 2vw !important;
+                                }
+                                .navbar-text {
+                                    right: 5vw !important;
+                                }
+                                .header-title {
+                                    font-size: 4vw !important;
+                                }
+                                .img-name {
+                                    position: absolute;
+                                    left: 25.5vw !important;
+                                    width: 2.5vw !important;
+                                    top: 4.8vw !important;
+                                }
+                                .header-top-input {
+                                    width: 30vw !important;
+                                    height: 32vw !important;
+                                    left: 5vw !important;
+                                    top: 10vw !important;
+                                }
+                                .img-email {
+                                    position: absolute;
+                                    left: 25.5vw !important;
+                                    width: 2.5vw !important;
+                                    top: 11.8vw !important;
+                                }
+                                .img-phone {
+                                    position: absolute;
+                                    left: 25.5vw !important;
+                                    width: 2.5vw !important;
+                                    top: 17.8vw !important;
+                                }
+                                .input_area {
+                                    width: 28vw !important;
+                                    height: 5vw !important;
+                                    font-size: 1.7vw !important;
+                                    margin-bottom: 0vw !important;
+                                }
+                                .header-input-div {
+                                    position: relative;
+                                    bottom: 5vw !important;
+                                }
+                                .header-top-input p {
+                                    font-size: 2.5vw !important;
+                                }
+                                .header-body button {
+                                    padding: 1vw 1vw 1vw 1vw !important;
+                                    font-size: 1.2vw !important;
+                                    position: relative !important;
+                                    bottom: 2vw !important;
+                                }
+                                .logotype-block-text {
+                                    width: 110vw !important;
+                                    position: relative;
+                                    right: 20vw !important;
+                                    font-size: 1.5vw;
+                                }
+                                .logotype-block-text p {
+                                    font-size: 2.5vw !important;
+                                    width: 80vw !important;
+                                    left: 22vw !important;
+                                }
+                                .header-down-text {
+                                    font-size: 2.5vw !important;
+                                }
+                                .slick-list {
+                                    width: 100vw !important;
+                                }
+                                .slide img {
+                                    width: 16vw !important;
+                                    bottom: 8vw !important;
+                                    right: 4vw;
+                                }
+                                .header-input-button {
+                                    bottom: 3vw !important;
+                                }
+                                .header-slider-text {
+                                    bottom: 12.5vw !important;
+                                }
+                                .header-slider {
+                                    width: 100vw !important;
+                                    position: relative;
+                                    left: 7vw;
+                                    height: 32vw !important;
+                                    top: 6vw;
+                                    margin: 0 auto;
+                                }
+                                .slide {
+                                    width: 80vw !important;
+                                    height: 15vw !important;
+                                    margin: 2vw 5vw 2vw 2vw;
+                                    position: relative !important;
+                                    left: 8vw !important;
+                                }
+                                .header-slider-text {
+                                    position: relative;
+                                    width: 60vw !important;
+                                    font-size: 2.5vw !important;
+                                    left: 12vw !important;
+                                    bottom: 20vw !important;
+                                }
+                                .fa-quote-right {
+                                    left: 73vw !important;
+                                    top: 8vw !important;
+                                    font-size: 2vw !important;
+                                }
+                                .body-title {
+                                    font-size: 2.9vw !important;
+                                    position: relative;
+                                    right: 5vw !important;
+                                }
+                                .slider-img {
+                                    width: 50vw !important;
+                                    position: relative;
+                                    top: 12vw !important;
+                                    left: 0vw !important;
+                                }
+                                .logo-title-1 {
+                                    font-size: 3vw !important;
+                                    width: 80vw !important;
+                                    left: 0vw !important;
+                                }
+                                .logo-title {
+                                    padding-top: 30vw !important;
+                                    padding-bottom: 0vw !important;
+                                }
+                                .logo-button {
+                                    font-size: 2.3vw !important;
+                                    position: relative;
+                                    right: 5vw;
+                                }
+                                .slider-buttons {
+                                    height: 70vw;
+                                    position: relative;
+                                    left: 0vw !important;
+                                }
+                                .demo-button p {
+                                    font-size: 2vw !important;
+                                }
+                                .demo-button-text {
+                                    width: 30vw !important;
+                                }
+                                .demo-button-text span {
+                                    font-size: 1.5vw !important;
+                                }
+                                .demo-button p {
+                                    margin-bottom: 0rem !important;
+                                }
+                                .demo-button img {
+                                    width: 4vw !important;
+                                    right: 4vw !important;
+                                    top: 0.4vw;
+                                }
+                                .demo-button {
+                                    margin-bottom: 0rem !important;
+                                }
+                                .slider-buttons {
+                                    bottom: 5vw !important;
+                                }
+                                .demo-button-active {
+                                    background: transparent !important;
+                                    border: 1px solid transparent !important;
+                                    box-shadow: 2px 2px 8px transparent !important;
+                                }
+                                .logo-row {
+                                    position: relative !important;
+                                    top: 0vw !important;
+                                }
+                                .logo-title {
+                                    font-size: 3vw !important;
+                                    position: relative;
+                                    right: 5vw;
+                                }
+                                .buy-info {
+                                    top: 0vw !important;
+                                    right: 10vw !important;
+                                    padding-bottom: 3vw !important;
+                                }
+                                .logotype-list img {
+                                    width: 80vw !important;
+                                    position: relative;
+                                    left: 5vw !important;
+                                }
+                                .buy-info-title {
+                                    font-size: 2.5vw !important;
+                                    width: 20vw !important;
+                                }
+                                .buy-info-desc {
+                                    font-size: 2vw !important;
+                                    width: 20vw !important;
+                                }
+                                .buy__cards {
+                                    width: 90vw !important;
+                                    margin: 0 auto;
+                                    left: 0vw;
+                                    position: relative;
+                                    padding-top: 10vw;
+                                }
+                                .buy-cards-title {
+                                    font-size: 2.7vw !important;
+                                    left: 17vw !important;
+                                    top: 0vw !important;
+                                }
+                                .buy-cards {
+                                    bottom: 10vw !important;
+                                }
+                                .device-screen {
+                                    left: 13vw !important;
+                                }
+                                .buy-card {
+                                    height: 40vw !important;
+                                    width: 25vw !important;
+                                    bottom: 10vw !important;
+                                    border-radius: 0.5vw;
+                                    right: 3vw !important;
+                                    position: relative !important;
+                                    margin-right: 2vw !important;
+                                }
+                                .b2b-section {
+                                    top: 70vw !important;
+                                    height: 53vw !important;
+                                }
+                                .b2b-section img {
+                                    bottom: 45.5vw !important;
+                                    left: 47.5vw !important;
+                                }
+                                .distro-1 {
+                                    top: 70vw !important;
+                                    right: 10vw !important;
+                                }
+                                .card-buy-desc {
+                                    font-size: 1.7vw !important;
+                                    padding-top: 0vw !important;
+                                }
+                                .card-buy-price {
+                                    font-size: 4.5vw !important;
+                                    padding-bottom: 4vw !important;
+                                }
+                                .b2b-section b {
+                                    margin-bottom: 0rem !important;
+                                }
+                                .b2b-text {
+                                    position: relative;
+                                    top: 0vw !important;
+                                }
+                                .b2b-cards {
+                                    position: relative;
+                                    left: 16vw !important;
+                                }
+                                .buy__cards {
+                                    width: 70vw;
+                                    left: 15vw !important;
+                                }
+                                .card-buy-name {
+                                    font-size: 1.5vw !important;
+                                }
+                                .card-buy-price sup {
+                                    font-size: 2.5vw !important;
+                                }
+                                .buy-card-button {
+                                    font-size: 2vw !important;
+                                    left: 7vw !important;
+                                }
+                                .buy-card-price {
+                                    height: 14vw !important;
+                                }
+                                .b2b-cards {
+                                    left: 11vw !important;
+                                }
+                                .buy-card p {
+                                    margin-bottom: 0.5rem !important;
+                                }
+                                .buy-card-body {
+                                    font-size: 1.6vw !important;
+                                }
+                                .distro-card-list {
+                                    left: 0vw !important;
+                                    top: 2vw !important;
+                                }
+                                .buy-card-more {
+                                    font-size: 1.9vw !important;
+                                }
+                                .buy-card-body hr {
+                                    margin-bottom: 0rem !important;
+                                    margin-top: 0rem !important;
+                                }
+                                .distro-cards-title {
+                                    font-size: 2.7vw !important;
+                                }
+                                .distro-title {
+                                    font-size: 2.3vw !important;
+                                    width: 20vw !important;
+                                    font-weight: 700 !important;
+                                }
+                                .distro-desc {
+                                    width: 17vw !important;
+                                    font-size: 1.5vw !important;
+                                }
+                                .distro-card p {
+                                    margin-bottom: 0.3rem !important;
+                                }
+                                .distro-cards {
+                                    height: 63vw !important;
+                                    width: 105vw !important;
+                                    right: 4vw !important;
+                                }
+                                .distro-card {
+                                    margin-right: 2vw;
+                                    padding: 1vw 1vw 1vw 1vw !important;
+                                }
+                                .reviews button {
+                                    font-size: 2.5vw !important;
+                                    left: 35vw !important;
+                                    height: 5vw !important;
+                                    font-weight: 500 !important;
+                                }
+                                .b2b-card i {
+                                    font-size: 5vw !important;
+                                }
+                                .b2b-card-desc {
+                                    width: 28vw !important;
+                                    font-size: 1.6vw !important;
+                                }
+                                .b2b-card-title {
+                                    font-size: 2.5vw !important;
+                                }
+                                .pre-footer-title {
+                                    top: 9vw !important;
+                                    right: 0vw !important;
+                                }
+                                .month-price {
+                                    font-size: 1vw !important;
+                                    bottom: 6.3vw !important;
+                                }
+                                .card-small-desc {
+                                    font-size: 1.2vw !important;
+                                    position: relative;
+                                    bottom: 6vw !important;
+                                    left: 3vw !important;
+                                }
+                                .card-buy-button {
+                                    padding: 0.3vw 1.8vw 0.3vw 1.8vw !important;
+                                    font-size: 2vw !important;
+                                    left: 3vw !important;
+                                    bottom: 9vw !important;
+                                }
+                                .card-desc {
+                                    font-family: 'Source Sans Pro', sans-serif;
+                                    font-weight: 300;
+                                    font-size: 1.7vw !important;
+                                    position: relative;
+                                    top: 1vw;
+                                    left: 4vw !important;
+                                }
+                                .pre-footer-title {
+                                    font-size: 3.5vw !important;
+                                }
+                                .footer p {
+                                    font-size: 2vw !important;
+                                }
+                                .rev-title {
+                                    left: 10vw !important;
+                                    position: relative;
+                                    font-size: 2.8vw !important;
+                                }
+                                .reviews-block img {
+                                    border-radius: 10vw !important;
+                                    border: 2px solid #424242;
+                                    width: 12vw !important;
+                                    height: 12vw !important;
+                                }
+                                .rev-title-block {
+                                    font-size: 2.5vw !important;
+                                }
+                                .rev-title-desc {
+                                    width: 50vw !important;
+                                    font-size: 1.3vw !important;
+                                }
+                                .rev-text p {
+                                    margin-bottom: 0rem !important;
+                                }
+                                .rev-text {
+                                    left: 3vw !important;
+                                }
+                                .reviews-block {
+                                    left: 20vw !important;
+                                }
+                                .questions {
+                                    position: relative;
+                                    top: 65vw !important;
+                                    height: 150vw !important;
+                                }
+                                .distro-2-text {
+                                    left: 5vw !important;
+                                    top: 0vw !important;
+                                }
+                                .distro-2 img {
+                                    bottom: 5vw !important;
+                                }
+                                .question-title {
+                                    font-size: 3.5vw !important;
+                                    font-weight: 700 !important;
+                                }
+                                .questions-title {
+                                    font-size: 2vw !important;
+                                    width: 50vw !important;
+                                }
+                                .question-desc {
+                                    font-size: 1.8vw !important;
+                                }
+                                .question-active {
+                                    height: 25vw !important;
+                                }
+                                /**/
+                                .question-desc-1 {
+                                    left: 7.1vw !important;
+                                    padding-top: 0vw !important;
+                                    bottom: 3vw !important;
+                                }
+                                .question-desc-2 {
+                                    left: 7.1vw !important;
+                                    padding-top: 0vw !important;
+                                    bottom: 3vw !important;
+                                }
+                                .question-desc-3 {
+                                    left: 7.1vw !important;
+                                    padding-top: 0vw !important;
+                                    bottom: 3vw !important;
+                                }
+                                .question-desc-4 {
+                                    left: 7.1vw !important;
+                                    padding-top: 0vw !important;
+                                    bottom: 3vw !important;
+                                }
+                                .question-desc-5 {
+                                    left: 7.1vw !important;
+                                    padding-top: 0vw !important;
+                                    bottom: 3vw !important;
+                                }
+                                .question-desc-6 {
+                                    left: 7.1vw !important;
+                                    padding-top: 0vw !important;
+                                    bottom: 3vw !important;
+                                }
+                                .question-desc-7 {
+                                    left: 7.1vw !important;
+                                    padding-top: 0vw !important;
+                                    bottom: 3vw !important;
+                                }
+                                .question-desc-8 {
+                                    left: 7.1vw !important;
+                                    padding-top: 0vw !important;
+                                    bottom: 3vw !important;
+                                }
+                                .question-desc-9 {
+                                    left: 7.1vw !important;
+                                    padding-top: 0vw !important;
+                                    bottom: 3vw !important;
+                                }
+                                .question {
+                                    position: relative !important;
+                                    right: 6vw !important;
+                                    width: 60vw !important;
+                                    border-radius: 10px !important;
+                                }
+                                .questions-title-2 {
+                                    font-size: 3.5vw;
+                                    top: 10vw !important;
+                                    font-weight: 700 !important;
+                                }
+                                .footer-left img {
+                                    width: 35vw !important;
+                                    right: 30vw !important;
+                                    top: 4vw;
+                                }
+                                .footer-left-desc {
+                                    width: 30vw !important;
+                                    left: 10vw !important;
+                                }
+                                .footer-left-link {
+                                    right: 35vw !important;
+                                }
+                                .footer-center {
+                                    position: relative;
+                                    left: 38vw !important;
+                                    bottom: 36vw !important;
+                                }
+                                .footer-center-link {
+                                    font-size: 2vw !important;
+                                }
+                                .footer-right {
+                                    left: 65vw !important;
+                                    bottom: 67vw !important;
+                                }
+                                .footer-left {
+                                    position: relative !important;
+                                    left: 0vw !important;
+                                }
+                                .footer-hr {
+                                    position: relative;
+                                    bottom: 40vw !important;
+                                }
+                                .footer-down {
+                                    position: relative !important;
+                                    display: none !important;
+                                    bottom: 40vw !important;
+                                }
+                                .footer {
+                                    position: relative;
+                                    right: 5vw !important;
+                                    top: 0vw !important;
+                                }
+                            }
+                            
+                            @media (max-width: 414px) {
+                                .navbar img {
+                                    width: 35vw !important;
+                                    position: relative !important;
+                                    left: 25vw !important;
+                                }
+                                .site-body {
+                                    height: 60vw !important;
+                                }
+                                .logotype-block-titletext {
+                                    top: 15vw !important;
+                                }
+                                .buy-cards {
+                                    height: 60vw !important;
+                                }
+                                .header {
+                                    height: 68vw !important;
+                                }
+                                .distro-1 i {
+                                    top: 2.6vw !important;
+                                    right: 2vw !important;
+                                    font-size: 1vw !important;
+                                }
+                                .distro-1 ul>li {
+                                    bottom: 4vw !important;
+                                    position: relative !important;
+                                }
+                                .distro-2 i {
+                                    top: 2.6vw !important;
+                                    right: 2vw !important;
+                                    font-size: 1vw !important;
+                                }
+                                .distro-1 img {
+                                    top: 20vw !important;
+                                }
+                                .distro-2 {
+                                    top: 55vw !important;
+                                    height: 45vw !important;
+                                }
+                                .header-image {
+                                    position: relative;
+                                    width: 48vw;
+                                    height: 35vw !important;
+                                    left: 25vw !important;
+                                }
+                                .header-button {
+                                    position: relative !important;
+                                    top: 0vw !important;
+                                }
+                                .logotype-block {
+                                    padding-top: 5vw !important;
+                                }
+                                .logotype-block-text {
+                                    top: 15vw !important;
+                                }
+                                .header-top-text {
+                                    position: relative;
+                                    left: 10vw !important;
+                                    top: 2vw !important;
+                                    width: 20vw !important;
+                                }
+                                .header-desc {
+                                    width: 30vw !important;
+                                    margin: 0 auto;
+                                    padding-bottom: 2vw;
+                                }
+                                .navbar {
+                                    width: 120vw !important;
+                                    margin: 0 auto;
+                                }
+                                .navbar li {
+                                    font-size: 2.2vw !important;
+                                    position: relative !important;
+                                    right: 15vw !important;
+                                    margin-left: 2vw !important;
+                                }
+                                .navbar-text {
+                                    right: 5vw !important;
+                                }
+                                .header-title {
+                                    font-size: 4vw !important;
+                                }
+                                .img-name {
+                                    position: absolute;
+                                    left: 25.5vw !important;
+                                    width: 2.5vw !important;
+                                    top: 4.8vw !important;
+                                }
+                                .header-top-input {
+                                    width: 30vw !important;
+                                    height: 32vw !important;
+                                    left: 5vw !important;
+                                    top: 10vw !important;
+                                }
+                                .img-email {
+                                    position: absolute;
+                                    left: 25.5vw !important;
+                                    width: 2.5vw !important;
+                                    top: 11vw !important;
+                                }
+                                .img-phone {
+                                    position: absolute;
+                                    left: 25.5vw !important;
+                                    width: 2.5vw !important;
+                                    top: 16.5vw !important;
+                                }
+                                .input_area {
+                                    width: 28vw !important;
+                                    height: 5vw !important;
+                                    font-size: 1.7vw !important;
+                                    margin-bottom: 0vw !important;
+                                }
+                                .header-input-div {
+                                    position: relative;
+                                    bottom: 5vw !important;
+                                }
+                                .header-top-input p {
+                                    font-size: 2.5vw !important;
+                                }
+                                .header-body button {
+                                    padding: 1vw 1vw 1vw 1vw !important;
+                                    font-size: 1.2vw !important;
+                                    position: relative !important;
+                                    bottom: 1vw !important;
+                                }
+                                .logotype-block-text {
+                                    width: 110vw !important;
+                                    position: relative;
+                                    right: 20vw !important;
+                                    font-size: 1.5vw;
+                                }
+                                .logotype-block-text p {
+                                    font-size: 2.5vw !important;
+                                    width: 80vw !important;
+                                    left: 22vw !important;
+                                }
+                                .header-down-text {
+                                    font-size: 2.5vw !important;
+                                }
+                                .slick-list {
+                                    width: 100vw !important;
+                                }
+                                .slide img {
+                                    width: 16vw !important;
+                                    bottom: 8vw !important;
+                                    right: 4vw;
+                                }
+                                .header-input-button {
+                                    bottom: 3vw !important;
+                                }
+                                .header-slider-text {
+                                    bottom: 12.5vw !important;
+                                }
+                                .header-slider {
+                                    width: 100vw !important;
+                                    position: relative;
+                                    left: 7vw;
+                                    height: 32vw !important;
+                                    top: 6vw;
+                                    margin: 0 auto;
+                                }
+                                .slide {
+                                    width: 80vw !important;
+                                    height: 15vw !important;
+                                    margin: 2vw 5vw 2vw 2vw;
+                                    position: relative !important;
+                                    left: 8vw !important;
+                                }
+                                .header-slider-text {
+                                    position: relative;
+                                    width: 60vw !important;
+                                    font-size: 2.5vw !important;
+                                    left: 12vw !important;
+                                    bottom: 20vw !important;
+                                }
+                                .fa-quote-right {
+                                    left: 73vw !important;
+                                    top: 8vw !important;
+                                    font-size: 2vw !important;
+                                }
+                                .body-title {
+                                    font-size: 2.9vw !important;
+                                    position: relative;
+                                    right: 5vw !important;
+                                }
+                                .slider-img {
+                                    width: 50vw !important;
+                                    position: relative;
+                                    top: 12vw !important;
+                                    left: 0vw !important;
+                                }
+                                .logo-title-1 {
+                                    font-size: 3vw !important;
+                                    width: 80vw !important;
+                                    left: 0vw !important;
+                                }
+                                .logo-title {
+                                    padding-top: 30vw !important;
+                                    padding-bottom: 0vw !important;
+                                }
+                                .logo-button {
+                                    font-size: 2.3vw !important;
+                                    position: relative;
+                                    right: 5vw;
+                                }
+                                .slider-buttons {
+                                    height: 70vw;
+                                    position: relative;
+                                    left: 0vw !important;
+                                }
+                                .demo-button p {
+                                    font-size: 2vw !important;
+                                }
+                                .demo-button-text {
+                                    width: 30vw !important;
+                                }
+                                .demo-button-text span {
+                                    font-size: 1.5vw !important;
+                                }
+                                .demo-button p {
+                                    margin-bottom: 0rem !important;
+                                }
+                                .demo-button img {
+                                    width: 4vw !important;
+                                    right: 4vw !important;
+                                    top: 0.4vw;
+                                }
+                                .demo-button {
+                                    margin-bottom: 0rem !important;
+                                }
+                                .slider-buttons {
+                                    bottom: 5vw !important;
+                                }
+                                .demo-button-active {
+                                    background: transparent !important;
+                                    border: 1px solid transparent !important;
+                                    box-shadow: 2px 2px 8px transparent !important;
+                                }
+                                .logo-row {
+                                    position: relative !important;
+                                    top: 0vw !important;
+                                }
+                                .logo-title {
+                                    font-size: 3vw !important;
+                                    position: relative;
+                                    right: 5vw;
+                                }
+                                .buy-info {
+                                    top: 0vw !important;
+                                    right: 10vw !important;
+                                    padding-bottom: 3vw !important;
+                                }
+                                .logotype-list img {
+                                    width: 80vw !important;
+                                    position: relative;
+                                    left: 5vw !important;
+                                }
+                                .buy-info-title {
+                                    font-size: 2.5vw !important;
+                                    width: 20vw !important;
+                                }
+                                .buy-info-desc {
+                                    font-size: 2vw !important;
+                                    width: 20vw !important;
+                                }
+                                .buy__cards {
+                                    width: 90vw !important;
+                                    margin: 0 auto;
+                                    left: 0vw;
+                                    position: relative;
+                                    padding-top: 10vw;
+                                }
+                                .buy-cards-title {
+                                    font-size: 2.7vw !important;
+                                    left: 17vw !important;
+                                    top: 0vw !important;
+                                }
+                                .buy-cards {
+                                    bottom: 10vw !important;
+                                }
+                                .device-screen {
+                                    left: 13vw !important;
+                                }
+                                .buy-card {
+                                    height: 40vw !important;
+                                    width: 25vw !important;
+                                    bottom: 10vw !important;
+                                    border-radius: 0.5vw;
+                                    right: 3vw !important;
+                                    position: relative !important;
+                                    margin-right: 2vw !important;
+                                }
+                                .b2b-section {
+                                    top: 70vw !important;
+                                    height: 53vw !important;
+                                }
+                                .b2b-section img {
+                                    bottom: 45.5vw !important;
+                                    left: 47.5vw !important;
+                                }
+                                .distro-1 {
+                                    top: 70vw !important;
+                                    right: 10vw !important;
+                                }
+                                .card-buy-desc {
+                                    font-size: 1.7vw !important;
+                                    padding-top: 0vw !important;
+                                }
+                                .card-buy-price {
+                                    font-size: 4.5vw !important;
+                                    padding-bottom: 4vw !important;
+                                }
+                                .b2b-section b {
+                                    margin-bottom: 0rem !important;
+                                }
+                                .b2b-text {
+                                    position: relative;
+                                    top: 0vw !important;
+                                }
+                                .b2b-cards {
+                                    position: relative;
+                                    left: 16vw !important;
+                                }
+                                .buy__cards {
+                                    width: 70vw;
+                                    left: 15vw !important;
+                                }
+                                .card-buy-name {
+                                    font-size: 1.5vw !important;
+                                }
+                                .card-buy-price sup {
+                                    font-size: 2.5vw !important;
+                                }
+                                .buy-card-button {
+                                    font-size: 2vw !important;
+                                    left: 7vw !important;
+                                }
+                                .buy-card-price {
+                                    height: 14vw !important;
+                                }
+                                .b2b-cards {
+                                    left: 11vw !important;
+                                }
+                                .buy-card p {
+                                    margin-bottom: 0.5rem !important;
+                                }
+                                .buy-card-body {
+                                    font-size: 1.6vw !important;
+                                }
+                                .distro-card-list {
+                                    left: 0vw !important;
+                                    top: 2vw !important;
+                                }
+                                .buy-card-more {
+                                    font-size: 1.9vw !important;
+                                }
+                                .buy-card-body hr {
+                                    margin-bottom: 0rem !important;
+                                    margin-top: 0rem !important;
+                                }
+                                .distro-cards-title {
+                                    font-size: 2.7vw !important;
+                                }
+                                .distro-title {
+                                    font-size: 2.3vw !important;
+                                    width: 20vw !important;
+                                    font-weight: 700 !important;
+                                }
+                                .distro-desc {
+                                    width: 17vw !important;
+                                    font-size: 1.5vw !important;
+                                }
+                                .distro-card p {
+                                    margin-bottom: 0.3rem !important;
+                                }
+                                .distro-cards {
+                                    height: 63vw !important;
+                                    width: 105vw !important;
+                                    right: 4vw !important;
+                                }
+                                .distro-card {
+                                    margin-right: 2vw;
+                                    padding: 1vw 1vw 1vw 1vw !important;
+                                }
+                                .reviews button {
+                                    font-size: 2.5vw !important;
+                                    left: 35vw !important;
+                                    height: 5vw !important;
+                                    font-weight: 500 !important;
+                                }
+                                .b2b-card i {
+                                    font-size: 5vw !important;
+                                }
+                                .b2b-card-desc {
+                                    width: 28vw !important;
+                                    font-size: 1.6vw !important;
+                                }
+                                .b2b-card-title {
+                                    font-size: 2.5vw !important;
+                                }
+                                .pre-footer-title {
+                                    top: 9vw !important;
+                                    right: 0vw !important;
+                                }
+                                .month-price {
+                                    font-size: 1vw !important;
+                                    bottom: 6.3vw !important;
+                                }
+                                .card-small-desc {
+                                    font-size: 1.2vw !important;
+                                    position: relative;
+                                    bottom: 6vw !important;
+                                    left: 3vw !important;
+                                }
+                                .card-buy-button {
+                                    padding: 0.3vw 1.8vw 0.3vw 1.8vw !important;
+                                    font-size: 2vw !important;
+                                    left: 3vw !important;
+                                    bottom: 9vw !important;
+                                }
+                                .card-desc {
+                                    font-family: 'Source Sans Pro', sans-serif;
+                                    font-weight: 300;
+                                    font-size: 1.7vw !important;
+                                    position: relative;
+                                    top: 1vw;
+                                    left: 4vw !important;
+                                }
+                                .pre-footer-title {
+                                    font-size: 3.5vw !important;
+                                }
+                                .footer p {
+                                    font-size: 2vw !important;
+                                }
+                                .rev-title {
+                                    left: 10vw !important;
+                                    position: relative;
+                                    font-size: 2.8vw !important;
+                                }
+                                .reviews-block img {
+                                    border-radius: 10vw !important;
+                                    border: 2px solid #424242;
+                                    width: 12vw !important;
+                                    height: 12vw !important;
+                                }
+                                .rev-title-block {
+                                    font-size: 2.5vw !important;
+                                }
+                                .rev-title-desc {
+                                    width: 50vw !important;
+                                    font-size: 1.3vw !important;
+                                }
+                                .rev-text p {
+                                    margin-bottom: 0rem !important;
+                                }
+                                .rev-text {
+                                    left: 3vw !important;
+                                }
+                                .reviews-block {
+                                    left: 20vw !important;
+                                }
+                                .questions {
+                                    position: relative;
+                                    top: 65vw !important;
+                                    height: 150vw !important;
+                                }
+                                .distro-2-text {
+                                    left: 5vw !important;
+                                    top: 0vw !important;
+                                }
+                                .distro-2 img {
+                                    bottom: 5vw !important;
+                                }
+                                .question-title {
+                                    font-size: 3.5vw !important;
+                                    font-weight: 700 !important;
+                                }
+                                .questions-title {
+                                    font-size: 2vw !important;
+                                    width: 50vw !important;
+                                }
+                                .question-desc {
+                                    font-size: 1.8vw !important;
+                                }
+                                .question-active {
+                                    height: 25vw !important;
+                                }
+                                /**/
+                                .question-desc-1 {
+                                    left: 7.1vw !important;
+                                    padding-top: 0vw !important;
+                                    bottom: 3vw !important;
+                                }
+                                .question-desc-2 {
+                                    left: 7.1vw !important;
+                                    padding-top: 0vw !important;
+                                    bottom: 3vw !important;
+                                }
+                                .question-desc-3 {
+                                    left: 7.1vw !important;
+                                    padding-top: 0vw !important;
+                                    bottom: 3vw !important;
+                                }
+                                .question-desc-4 {
+                                    left: 7.1vw !important;
+                                    padding-top: 0vw !important;
+                                    bottom: 3vw !important;
+                                }
+                                .question-desc-5 {
+                                    left: 7.1vw !important;
+                                    padding-top: 0vw !important;
+                                    bottom: 3vw !important;
+                                }
+                                .question-desc-6 {
+                                    left: 7.1vw !important;
+                                    padding-top: 0vw !important;
+                                    bottom: 3vw !important;
+                                }
+                                .question-desc-7 {
+                                    left: 7.1vw !important;
+                                    padding-top: 0vw !important;
+                                    bottom: 3vw !important;
+                                }
+                                .question-desc-8 {
+                                    left: 7.1vw !important;
+                                    padding-top: 0vw !important;
+                                    bottom: 3vw !important;
+                                }
+                                .question-desc-9 {
+                                    left: 7.1vw !important;
+                                    padding-top: 0vw !important;
+                                    bottom: 3vw !important;
+                                }
+                                .question {
+                                    position: relative !important;
+                                    right: 6vw !important;
+                                    width: 60vw !important;
+                                    border-radius: 10px !important;
+                                }
+                                .questions-title-2 {
+                                    font-size: 3.5vw;
+                                    top: 10vw !important;
+                                    font-weight: 700 !important;
+                                }
+                                .footer-left img {
+                                    width: 35vw !important;
+                                    right: 30vw !important;
+                                    top: 4vw;
+                                }
+                                .footer-left-desc {
+                                    width: 30vw !important;
+                                    left: 10vw !important;
+                                }
+                                .footer-left-link {
+                                    right: 35vw !important;
+                                }
+                                .footer-center {
+                                    position: relative;
+                                    left: 38vw !important;
+                                    bottom: 36vw !important;
+                                }
+                                .footer-center-link {
+                                    font-size: 2vw !important;
+                                }
+                                .footer-right {
+                                    left: 65vw !important;
+                                    bottom: 65vw !important;
+                                }
+                                .footer-down {
+                                    display: none !important;
+                                }
+                                .footer-left {
+                                    position: relative !important;
+                                    left: 0vw !important;
+                                }
+                                .footer-hr {
+                                    position: relative;
+                                    bottom: 40vw !important;
+                                }
+                                .footer-down {
+                                    position: relative !important;
+                                    display: none !important;
+                                    bottom: 40vw !important;
+                                }
+                                .footer {
+                                    position: relative;
+                                    right: 5vw !important;
+                                    top: 0vw !important;
+                                }
+                            }
+                            
+                            @media (max-width: 375px) {
+                                .navbar img {
+                                    width: 35vw !important;
+                                    position: relative !important;
+                                    left: 25vw !important;
+                                }
+                                .site-body {
+                                    height: 60vw !important;
+                                }
+                                .logotype-block-titletext {
+                                    top: 15vw !important;
+                                }
+                                .buy-cards {
+                                    height: 60vw !important;
+                                }
+                                .header {
+                                    height: 68vw !important;
+                                }
+                                .distro-1 i {
+                                    top: 2.6vw !important;
+                                    right: 2vw !important;
+                                    font-size: 1vw !important;
+                                }
+                                .distro-1 ul>li {
+                                    bottom: 4vw !important;
+                                    position: relative !important;
+                                }
+                                .distro-2 i {
+                                    top: 2.6vw !important;
+                                    right: 2vw !important;
+                                    font-size: 1vw !important;
+                                }
+                                .distro-1 img {
+                                    top: 20vw !important;
+                                }
+                                .distro-2 {
+                                    top: 55vw !important;
+                                    height: 45vw !important;
+                                }
+                                .header-image {
+                                    position: relative;
+                                    width: 48vw;
+                                    height: 35vw !important;
+                                    left: 25vw !important;
+                                }
+                                .header-button {
+                                    position: relative !important;
+                                    top: 0vw !important;
+                                }
+                                .logotype-block {
+                                    padding-top: 5vw !important;
+                                }
+                                .logotype-block-text {
+                                    top: 15vw !important;
+                                }
+                                .header-top-text {
+                                    position: relative;
+                                    left: 10vw !important;
+                                    top: 2vw !important;
+                                    width: 20vw !important;
+                                }
+                                .header-desc {
+                                    width: 30vw !important;
+                                    margin: 0 auto;
+                                    padding-bottom: 2vw;
+                                }
+                                .navbar {
+                                    width: 120vw !important;
+                                    margin: 0 auto;
+                                }
+                                .navbar li {
+                                    font-size: 2.2vw !important;
+                                    position: relative !important;
+                                    right: 15vw !important;
+                                    margin-left: 2vw !important;
+                                }
+                                .navbar-text {
+                                    right: 5vw !important;
+                                }
+                                .header-title {
+                                    font-size: 4vw !important;
+                                }
+                                .img-name {
+                                    position: absolute;
+                                    left: 25.5vw !important;
+                                    width: 2.5vw !important;
+                                    top: 4.8vw !important;
+                                }
+                                .header-top-input {
+                                    width: 30vw !important;
+                                    height: 32vw !important;
+                                    left: 5vw !important;
+                                    top: 10vw !important;
+                                }
+                                .img-email {
+                                    position: absolute;
+                                    left: 25.5vw !important;
+                                    width: 2.5vw !important;
+                                    top: 11.8vw !important;
+                                }
+                                .img-phone {
+                                    position: absolute;
+                                    left: 25.5vw !important;
+                                    width: 2.5vw !important;
+                                    top: 17.8vw !important;
+                                }
+                                .input_area {
+                                    width: 28vw !important;
+                                    height: 5vw !important;
+                                    font-size: 1.7vw !important;
+                                    margin-bottom: 0vw !important;
+                                }
+                                .header-input-div {
+                                    position: relative;
+                                    bottom: 5vw !important;
+                                }
+                                .header-top-input p {
+                                    font-size: 2.5vw !important;
+                                }
+                                .header-body button {
+                                    padding: 1vw 1vw 1vw 1vw !important;
+                                    font-size: 1.2vw !important;
+                                    position: relative !important;
+                                    bottom: 2vw !important;
+                                }
+                                .logotype-block-text {
+                                    width: 110vw !important;
+                                    position: relative;
+                                    right: 20vw !important;
+                                    font-size: 1.5vw;
+                                }
+                                .logotype-block-text p {
+                                    font-size: 2.5vw !important;
+                                    width: 80vw !important;
+                                    left: 22vw !important;
+                                }
+                                .header-down-text {
+                                    font-size: 2.5vw !important;
+                                }
+                                .slick-list {
+                                    width: 100vw !important;
+                                }
+                                .slide img {
+                                    width: 16vw !important;
+                                    bottom: 8vw !important;
+                                    right: 4vw;
+                                }
+                                .header-input-button {
+                                    bottom: 3vw !important;
+                                }
+                                .header-slider-text {
+                                    bottom: 12.5vw !important;
+                                }
+                                .header-slider {
+                                    width: 100vw !important;
+                                    position: relative;
+                                    left: 7vw;
+                                    height: 32vw !important;
+                                    top: 6vw;
+                                    margin: 0 auto;
+                                }
+                                .slide {
+                                    width: 80vw !important;
+                                    height: 15vw !important;
+                                    margin: 2vw 5vw 2vw 2vw;
+                                    position: relative !important;
+                                    left: 8vw !important;
+                                }
+                                .header-slider-text {
+                                    position: relative;
+                                    width: 60vw !important;
+                                    font-size: 2.5vw !important;
+                                    left: 12vw !important;
+                                    bottom: 20vw !important;
+                                }
+                                .fa-quote-right {
+                                    left: 73vw !important;
+                                    top: 8vw !important;
+                                    font-size: 2vw !important;
+                                }
+                                .body-title {
+                                    font-size: 2.9vw !important;
+                                    position: relative;
+                                    right: 5vw !important;
+                                }
+                                .slider-img {
+                                    width: 50vw !important;
+                                    position: relative;
+                                    top: 12vw !important;
+                                    left: 0vw !important;
+                                }
+                                .logo-title-1 {
+                                    font-size: 3vw !important;
+                                    width: 80vw !important;
+                                    left: 0vw !important;
+                                }
+                                .logo-title {
+                                    padding-top: 30vw !important;
+                                    padding-bottom: 0vw !important;
+                                }
+                                .logo-button {
+                                    font-size: 2.3vw !important;
+                                    position: relative;
+                                    right: 5vw;
+                                }
+                                .slider-buttons {
+                                    height: 70vw;
+                                    position: relative;
+                                    left: 0vw !important;
+                                }
+                                .demo-button p {
+                                    font-size: 2vw !important;
+                                }
+                                .demo-button-text {
+                                    width: 30vw !important;
+                                }
+                                .demo-button-text span {
+                                    font-size: 1.5vw !important;
+                                }
+                                .demo-button p {
+                                    margin-bottom: 0rem !important;
+                                }
+                                .demo-button img {
+                                    width: 4vw !important;
+                                    right: 4vw !important;
+                                    top: 0.4vw;
+                                }
+                                .demo-button {
+                                    margin-bottom: 0rem !important;
+                                }
+                                .slider-buttons {
+                                    bottom: 5vw !important;
+                                }
+                                .demo-button-active {
+                                    background: transparent !important;
+                                    border: 1px solid transparent !important;
+                                    box-shadow: 2px 2px 8px transparent !important;
+                                }
+                                .logo-row {
+                                    position: relative !important;
+                                    top: 0vw !important;
+                                }
+                                .logo-title {
+                                    font-size: 3vw !important;
+                                    position: relative;
+                                    right: 5vw;
+                                }
+                                .buy-info {
+                                    top: 0vw !important;
+                                    right: 10vw !important;
+                                    padding-bottom: 3vw !important;
+                                }
+                                .logotype-list img {
+                                    width: 80vw !important;
+                                    position: relative;
+                                    left: 5vw !important;
+                                }
+                                .buy-info-title {
+                                    font-size: 2.5vw !important;
+                                    width: 20vw !important;
+                                }
+                                .buy-info-desc {
+                                    font-size: 2vw !important;
+                                    width: 20vw !important;
+                                }
+                                .buy__cards {
+                                    width: 90vw !important;
+                                    margin: 0 auto;
+                                    left: 0vw;
+                                    position: relative;
+                                    padding-top: 10vw;
+                                }
+                                .buy-cards-title {
+                                    font-size: 2.7vw !important;
+                                    left: 17vw !important;
+                                    top: 0vw !important;
+                                }
+                                .buy-cards {
+                                    bottom: 10vw !important;
+                                }
+                                .device-screen {
+                                    left: 13vw !important;
+                                }
+                                .buy-card {
+                                    height: 40vw !important;
+                                    width: 25vw !important;
+                                    bottom: 10vw !important;
+                                    border-radius: 0.5vw;
+                                    right: 3vw !important;
+                                    position: relative !important;
+                                    margin-right: 2vw !important;
+                                }
+                                .b2b-section {
+                                    top: 70vw !important;
+                                    height: 53vw !important;
+                                }
+                                .b2b-section img {
+                                    bottom: 45.5vw !important;
+                                    left: 47.5vw !important;
+                                }
+                                .distro-1 {
+                                    top: 70vw !important;
+                                    right: 10vw !important;
+                                }
+                                .card-buy-desc {
+                                    font-size: 1.7vw !important;
+                                    padding-top: 0vw !important;
+                                }
+                                .card-buy-price {
+                                    font-size: 4.5vw !important;
+                                    padding-bottom: 4vw !important;
+                                }
+                                .b2b-section b {
+                                    margin-bottom: 0rem !important;
+                                }
+                                .b2b-text {
+                                    position: relative;
+                                    top: 0vw !important;
+                                }
+                                .b2b-cards {
+                                    position: relative;
+                                    left: 16vw !important;
+                                }
+                                .buy__cards {
+                                    width: 70vw;
+                                    left: 15vw !important;
+                                }
+                                .card-buy-name {
+                                    font-size: 1.5vw !important;
+                                }
+                                .card-buy-price sup {
+                                    font-size: 2.5vw !important;
+                                }
+                                .buy-card-button {
+                                    font-size: 2vw !important;
+                                    left: 7vw !important;
+                                }
+                                .buy-card-price {
+                                    height: 14vw !important;
+                                }
+                                .b2b-cards {
+                                    left: 11vw !important;
+                                }
+                                .buy-card p {
+                                    margin-bottom: 0.5rem !important;
+                                }
+                                .buy-card-body {
+                                    font-size: 1.6vw !important;
+                                }
+                                .distro-card-list {
+                                    left: 0vw !important;
+                                    top: 2vw !important;
+                                }
+                                .buy-card-more {
+                                    font-size: 1.9vw !important;
+                                }
+                                .buy-card-body hr {
+                                    margin-bottom: 0rem !important;
+                                    margin-top: 0rem !important;
+                                }
+                                .distro-cards-title {
+                                    font-size: 2.7vw !important;
+                                }
+                                .distro-title {
+                                    font-size: 2.3vw !important;
+                                    width: 20vw !important;
+                                    font-weight: 700 !important;
+                                }
+                                .distro-desc {
+                                    width: 17vw !important;
+                                    font-size: 1.5vw !important;
+                                }
+                                .distro-card p {
+                                    margin-bottom: 0.3rem !important;
+                                }
+                                .distro-cards {
+                                    height: 63vw !important;
+                                    width: 105vw !important;
+                                    right: 4vw !important;
+                                }
+                                .distro-card {
+                                    margin-right: 2vw;
+                                    padding: 1vw 1vw 1vw 1vw !important;
+                                }
+                                .reviews button {
+                                    font-size: 2.5vw !important;
+                                    left: 35vw !important;
+                                    height: 5vw !important;
+                                    font-weight: 500 !important;
+                                }
+                                .b2b-card i {
+                                    font-size: 5vw !important;
+                                }
+                                .b2b-card-desc {
+                                    width: 28vw !important;
+                                    font-size: 1.6vw !important;
+                                }
+                                .b2b-card-title {
+                                    font-size: 2.5vw !important;
+                                }
+                                .pre-footer-title {
+                                    top: 9vw !important;
+                                    right: 0vw !important;
+                                }
+                                .month-price {
+                                    font-size: 1vw !important;
+                                    bottom: 6.3vw !important;
+                                }
+                                .card-small-desc {
+                                    font-size: 1.2vw !important;
+                                    position: relative;
+                                    bottom: 6vw !important;
+                                    left: 3vw !important;
+                                }
+                                .card-buy-button {
+                                    padding: 0.3vw 1.8vw 0.3vw 1.8vw !important;
+                                    font-size: 2vw !important;
+                                    left: 3vw !important;
+                                    bottom: 9vw !important;
+                                }
+                                .card-desc {
+                                    font-family: 'Source Sans Pro', sans-serif;
+                                    font-weight: 300;
+                                    font-size: 1.7vw !important;
+                                    position: relative;
+                                    top: 1vw;
+                                    left: 4vw !important;
+                                }
+                                .pre-footer-title {
+                                    font-size: 3.5vw !important;
+                                }
+                                .footer p {
+                                    font-size: 2vw !important;
+                                }
+                                .rev-title {
+                                    left: 10vw !important;
+                                    position: relative;
+                                    font-size: 2.8vw !important;
+                                }
+                                .reviews-block img {
+                                    border-radius: 10vw !important;
+                                    border: 2px solid #424242;
+                                    width: 12vw !important;
+                                    height: 12vw !important;
+                                }
+                                .rev-title-block {
+                                    font-size: 2.5vw !important;
+                                }
+                                .rev-title-desc {
+                                    width: 50vw !important;
+                                    font-size: 1.3vw !important;
+                                }
+                                .rev-text p {
+                                    margin-bottom: 0rem !important;
+                                }
+                                .rev-text {
+                                    left: 3vw !important;
+                                }
+                                .reviews-block {
+                                    left: 20vw !important;
+                                }
+                                .questions {
+                                    position: relative;
+                                    top: 65vw !important;
+                                    height: 150vw !important;
+                                }
+                                .distro-2-text {
+                                    left: 5vw !important;
+                                    top: 0vw !important;
+                                }
+                                .distro-2 img {
+                                    bottom: 5vw !important;
+                                }
+                                .question-title {
+                                    font-size: 3.5vw !important;
+                                    font-weight: 700 !important;
+                                }
+                                .questions-title {
+                                    font-size: 2vw !important;
+                                    width: 50vw !important;
+                                }
+                                .question-desc {
+                                    font-size: 1.8vw !important;
+                                }
+                                .question-active {
+                                    height: 25vw !important;
+                                }
+                                /**/
+                                .question-desc-1 {
+                                    left: 7.1vw !important;
+                                    padding-top: 0vw !important;
+                                    bottom: 3vw !important;
+                                }
+                                .question-desc-2 {
+                                    left: 7.1vw !important;
+                                    padding-top: 0vw !important;
+                                    bottom: 3vw !important;
+                                }
+                                .question-desc-3 {
+                                    left: 7.1vw !important;
+                                    padding-top: 0vw !important;
+                                    bottom: 3vw !important;
+                                }
+                                .question-desc-4 {
+                                    left: 7.1vw !important;
+                                    padding-top: 0vw !important;
+                                    bottom: 3vw !important;
+                                }
+                                .question-desc-5 {
+                                    left: 7.1vw !important;
+                                    padding-top: 0vw !important;
+                                    bottom: 3vw !important;
+                                }
+                                .question-desc-6 {
+                                    left: 7.1vw !important;
+                                    padding-top: 0vw !important;
+                                    bottom: 3vw !important;
+                                }
+                                .question-desc-7 {
+                                    left: 7.1vw !important;
+                                    padding-top: 0vw !important;
+                                    bottom: 3vw !important;
+                                }
+                                .question-desc-8 {
+                                    left: 7.1vw !important;
+                                    padding-top: 0vw !important;
+                                    bottom: 3vw !important;
+                                }
+                                .question-desc-9 {
+                                    left: 7.1vw !important;
+                                    padding-top: 0vw !important;
+                                    bottom: 3vw !important;
+                                }
+                                .question {
+                                    position: relative !important;
+                                    right: 6vw !important;
+                                    width: 60vw !important;
+                                    border-radius: 10px !important;
+                                }
+                                .questions-title-2 {
+                                    font-size: 3.5vw;
+                                    top: 10vw !important;
+                                    font-weight: 700 !important;
+                                }
+                                .footer-left img {
+                                    width: 35vw !important;
+                                    right: 30vw !important;
+                                    top: 4vw;
+                                }
+                                .footer-left-desc {
+                                    width: 30vw !important;
+                                    left: 10vw !important;
+                                }
+                                .footer-left-link {
+                                    right: 35vw !important;
+                                }
+                                .footer-center {
+                                    position: relative;
+                                    left: 38vw !important;
+                                    bottom: 36vw !important;
+                                }
+                                .footer-center-link {
+                                    font-size: 2vw !important;
+                                }
+                                .footer-right {
+                                    left: 65vw !important;
+                                    bottom: 67vw !important;
+                                }
+                                .footer-left {
+                                    position: relative !important;
+                                    left: 0vw !important;
+                                }
+                                .footer-hr {
+                                    position: relative;
+                                    bottom: 40vw !important;
+                                }
+                                .footer-down {
+                                    position: relative !important;
+                                    display: none !important;
+                                    bottom: 40vw !important;
+                                }
+                                .footer {
+                                    position: relative;
+                                    right: 5vw !important;
+                                    top: 0vw !important;
+                                }
+                            }
