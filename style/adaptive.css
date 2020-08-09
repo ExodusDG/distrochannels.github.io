@@ -1299,6 +1299,7 @@
                                     position: relative;
                                     right: 5vw !important;
                                     top: 0vw !important;
+                                    height: 40vw !important;
                                 }
                             }
                             
@@ -1886,6 +1887,7 @@
                                 .footer {
                                     position: relative;
                                     right: 5vw !important;
+                                    height: 40vw !important;
                                     top: 0vw !important;
                                 }
                             }
