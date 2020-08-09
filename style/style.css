@@ -1175,7 +1175,7 @@
 /*B2B*/
 
 .b2b-section {
-    width: 80vw;
+    width: 85vw;
     margin: 0 auto;
     top: 50vw;
     position: relative;
@@ -1186,8 +1186,9 @@
 .b2b-section img {
     position: relative;
     left: 50vw;
-    height: 30vw;
-    bottom: 23.5vw;
+    height: 20vw;
+    width: 35vw;
+    bottom: 18.5vw;
 }
 
 .b2b-section p {
