@@ -35,6 +35,9 @@
             .distro-cards {
                 height: 35vw !important;
             }
+            .footer {
+                top: 20vw !important;
+            }
         }
         
         @media (max-width: 1200px) {
@@ -301,9 +304,6 @@
                 top: 20vw !important;
                 right: 14vw !important;
                 padding-bottom: 20vw !important;
-            }
-            .buy-info-card img {
-                width: 25vw !important;
             }
             .logotype-list img {
                 width: 80vw !important;
@@ -573,6 +573,9 @@
             .header {
                 height: 68vw !important;
             }
+            .logotype-block {
+                padding-top: 5vw !important;
+            }
             .logo-title {
                 top: 0vw !important;
             }
@@ -781,9 +784,6 @@
                 right: 14vw !important;
                 padding-bottom: 20vw !important;
             }
-            .buy-info-card img {
-                width: 25vw !important;
-            }
             .logotype-list img {
                 width: 80vw !important;
                 position: relative;
@@ -981,7 +981,7 @@
             }
             .questions {
                 position: relative;
-                top: 60vw !important;
+                top: 20vw !important;
                 height: 270vw !important;
             }
             .question-title {
@@ -1003,6 +1003,9 @@
                 font-size: 3.5vw;
                 top: 4vw !important;
                 font-weight: 700 !important;
+            }
+            .questions button {
+                padding: 0.35vw 1.3vw 0.35vw 1.3vw !important;
             }
             .footer-left img {
                 width: 35vw !important;
@@ -1062,6 +1065,9 @@
                 position: relative !important;
                 top: 0vw !important;
             }
+            .logotype-block {
+                padding-top: 5vw !important;
+            }
             .logotype-block-text {
                 top: 15vw !important;
             }
@@ -1096,7 +1102,7 @@
                 position: absolute;
                 left: 25.5vw !important;
                 width: 2.5vw !important;
-                top: 7.8vw !important;
+                top: 4.8vw !important;
             }
             .header-top-input {
                 width: 30vw !important;
@@ -1108,13 +1114,13 @@
                 position: absolute;
                 left: 25.5vw !important;
                 width: 2.5vw !important;
-                top: 14.8vw !important;
+                top: 11.8vw !important;
             }
             .img-phone {
                 position: absolute;
                 left: 25.5vw !important;
                 width: 2.5vw !important;
-                top: 20.8vw !important;
+                top: 17.8vw !important;
             }
             .input_area {
                 width: 28vw !important;
@@ -1138,11 +1144,12 @@
             .logotype-block-text {
                 width: 110vw !important;
                 position: relative;
-                right: 10vw !important;
+                right: 20vw !important;
+                font-size: 1.5vw;
             }
             .logotype-block-text p {
                 font-size: 2.5vw !important;
-                width: 60vw !important;
+                width: 80vw !important;
                 left: 22vw !important;
             }
             .header-down-text {
@@ -1197,13 +1204,13 @@
             .slider-img {
                 width: 50vw !important;
                 position: relative;
-                top: 10vw !important;
+                top: 12vw !important;
                 left: 0vw !important;
             }
             .logo-title-1 {
-                font-size: 2.6vw !important;
-                width: 70vw !important;
-                left: 10vw !important;
+                font-size: 3vw !important;
+                width: 80vw !important;
+                left: 0vw !important;
             }
             .logo-title {
                 padding-top: 30vw !important;
@@ -1211,6 +1218,8 @@
             }
             .logo-button {
                 font-size: 2.3vw !important;
+                position: relative;
+                right: 5vw;
             }
             .slider-buttons {
                 height: 70vw;
@@ -1251,14 +1260,13 @@
             }
             .logo-title {
                 font-size: 3vw !important;
+                position: relative;
+                right: 5vw;
             }
             .buy-info {
                 top: 20vw !important;
                 right: 14vw !important;
                 padding-bottom: 20vw !important;
-            }
-            .buy-info-card img {
-                width: 25vw !important;
             }
             .logotype-list img {
                 width: 80vw !important;
@@ -1421,7 +1429,7 @@
             .footer {
                 height: 10vw !important;
                 position: relative;
-                top: 60vw !important;
+                top: 20vw !important;
                 width: 105vw !important;
                 right: 5vw !important;
             }
@@ -1457,7 +1465,7 @@
             }
             .questions {
                 position: relative;
-                top: 60vw !important;
+                top: 20vw !important;
                 height: 270vw !important;
             }
             .question-title {

@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="shortcut icon" href="img/DC Favicon.png" type="image/x-icon">
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <title>Find Influencers That Reach Your Target Customer</title>
@@ -24,7 +24,7 @@
     <section class="header">
         <div class="container-fluid">
             <nav>
-                <ul class="navbar d-flex align-items-center">
+                <ul class="navbar d-flex align-items-center fixed-menu">
                     <li><img src="img/logotype.png" alt=""></li>
                     <div class="navbar-text d-flex align-items-center">
                         <li>About</li>
@@ -58,7 +58,9 @@
                                         <input class="input_area" type="name" placeholder="Enter Your Name" style="outline: none;"><img class="img-name" src="img/name2.png" alt="">
                                         <input class="input_area" type="name" placeholder="Enter Your Email Adress" style="outline: none;"><img class="img-email" src="img/email2.png" alt="">
                                         <input class="input_area" type="name" placeholder="Enter Your Phone Number" style="outline: none;"><img class="img-phone" src="img/phone2.png" alt="">
-                                        <button class="header-input-button"><i class="far fa-arrow-alt-circle-right"></i>Click To Get Instant Access Right Now</button>
+                                        <div class="button-input-div">
+                                            <button class="header-input-button"><i class="far fa-arrow-alt-circle-right"></i>Click To Get Instant Access Right Now</button>
+                                        </div>
                                     </div>
 
                                 </div>
@@ -79,23 +81,23 @@
                     <div class="container-fluid">
                         <div class="buy-info d-flex">
                             <div class="buy-info-card">
-                                <i class="fas fa-search"></i>
+                                <img class="buy-info-icon" src="img/icon/s_list.jpg" alt="">
                                 <p class="buy-info-title">Search and Select</p>
                                 <p style="display: flex;" class="buy-info-nb">&nbsp;</p>
                                 <p class="buy-info-desc">Search and Select Your Ideal Influencers. Find the ideal influencers and distribution partners for your business who are waiting to hear from you! </p>
                             </div>
                             <div class="buy-info-card">
-                                <i class="fas fa-chart-pie"></i>
+                                <img class="buy-info-icon" src="img/icon/s_stats.jpg" alt="">
                                 <p class="buy-info-title">Analyze Audience Data </p>
                                 <p class="buy-info-desc">Analyze and See if They Align With Your Brand Find out the truth behind follower data and engagement rates so you can more accurately choose who you want to partner with</p>
                             </div>
                             <div class="buy-info-card">
-                                <i class="far fa-bookmark"></i>
+                                <img class="buy-info-icon" src="img/icon/s_done.jpg" alt="">
                                 <p class="buy-info-title">Save Searches And Profiles</p>
                                 <p class="buy-info-desc">Save Your Search and and create a short list keeping your influencers organized. Save search streams that constanty update keeping you up to date with the latest rising stars </p>
                             </div>
                             <div class="buy-info-card">
-                                <i class="fas fa-rocket"></i>
+                                <img class="buy-info-icon" src="img/icon/rocket.jpg" alt="">
                                 <p class="buy-info-title">Launch Your Campaign</p>
                                 <p class="buy-info-desc">Launch your campaign and Drive Up Sales! Find Influencers and streamline your campaigns in no-time with our data driven search and selection platform </p>
                             </div>
@@ -228,7 +230,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="reviews">
+                <!-- <section class="reviews">
                     <button><i class="far fa-arrow-alt-circle-right"></i>Click to Sign Up</button>
                     <p class="rev-title">WHAT PEOPLE ARE SAYING</p>
                     <div class="reviews-block d-flex">
@@ -245,7 +247,7 @@
                             <p class="rev-title-desc"><i>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin . Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin . Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</i></p>
                         </div>
                     </div>
-                </section>
+                </section> -->
                 <section class="questions text-center">
                     <p class="question-title">Frequently Asked Questions</p>
                     <div class="question">
@@ -317,7 +319,7 @@
                     <p class="questions-title-2">
                         Increase Your Sales. Grow Your Business.
                     </p>
-                    <button><i class="far fa-arrow-alt-circle-right"></i>Click to Sign Up</button>
+                    <button class="questions-button"><i class="far fa-arrow-alt-circle-right"></i>Click to Sign Up</button>
                 </section>
                 <section class="footer text-center">
                     <div class="footer-left">
