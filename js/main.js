@@ -43,3 +43,27 @@ $(document).ready(function() {
         $('.buy-info-nb').attr('style', 'display: none;');
     }
 });
+$(document).ready(function() {
+    var w = $(window).width();
+    if (w > 768) {
+        menu_top = $('.navbar').offset().top; // запоминаем положение меню
+        $(window).scroll(function() { // отслеживаем событие прокрутки страницы
+            if ($(window).scrollTop() > menu_top) { // если прокрутка дошла до меню
+                if ($('.navbar').css('position') != 'fixed') { // проверяем, если меню еще не зафиксировано
+                    $('navbar').addClass('fixed-menu') //добавляем элементу fixed-menu menu класс navbar
+                    $('.navbar').css('position', 'fixed'); // задаем блоку меню свойство position = fixed
+                    $('.navbar').css('top', '0'); // положение в самом верху
+                    $('.navbar').css('right', '0.1vw'); // положение в самом верху
+                    $('.header-body').css('margin-top', '80px'); // делаем отступ, чтобы контент не "скакал" в момент фиксации меню
+                }
+            } else { // прокрутка страницы обратно вверх достигла место "перехода" меню
+                if ($('.navbar').css('position') == 'fixed') { // если меню зафиксировано
+                    $('.navbar').css('position', '');
+                    $('.navbar').css('top', '');
+                    $('.navbar').css('right', '6.8vw'); // положение в самом верху
+                    $('.header-body').css('margin-top', '');
+                }
+            }
+        });
+    }
+});
