@@ -1,7 +1,9 @@
 @import 'adaptive.css';
+@import 'fonts.css';
 .body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'HelveticaNeue-CondensedRegular';
     font-weight: 400;
+    color: #222222;
 }
 
 .header {
@@ -38,8 +40,8 @@
 .navbar li {
     list-style-type: none;
     margin-left: 2.5vw;
-    color: black !important;
-    font-family: 'Poppins', sans-serif;
+    color: #222222 !important;
+    font-family: 'HelveticaNeue-CondensedRegular';
     font-weight: 500;
     position: relative;
     right: 10vw;
@@ -56,10 +58,11 @@
     padding: 0.7vw 1.3vw 0.7vw 1.3vw;
     outline: none;
     position: relative;
+    font-family: 'HelveticaNeue-CondensedBold';
     border: 0.2vw solid #000000;
     left: 0vw;
     border-radius: 1.5vw;
-    color: black;
+    color: #222222;
     transition: 0.4s;
 }
 
@@ -80,28 +83,28 @@
 }
 
 .header-title {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'HelveticaNeue-CondensedRegular', sans-serif;
     font-weight: 800;
-    color: black;
+    color: #222222;
     font-size: 3vw;
 }
 
 .header-desc {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'HelveticaNeue-CondensedMedium';
     font-weight: 500;
     font-size: 2.5vw;
     width: 35vw;
     position: relative;
-    color: black;
+    color: #222222;
     bottom: 1vw;
     margin: 0 auto;
     padding-bottom: 0vw;
 }
 
 .header-desc-1 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'HelveticaNeue-CondensedBold';
     font-weight: 400;
-    color: black;
+    color: #222222;
     font-size: 1.7vw;
     width: 35vw;
 }
@@ -136,7 +139,7 @@
     border: none;
     color: white;
     font-size: 1vw;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'HelveticaNeue-CondensedBold';
     font-weight: 600;
 }
 
@@ -163,7 +166,7 @@
 
 .logotype-block-titletext {
     position: relative;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Helvetica Neue Bold Italic';
     font-weight: 700;
     font-size: 2.5vw;
     width: 35vw;
@@ -181,7 +184,7 @@
     border-radius: 2vw;
     padding: 0.8vw 1vw 0.8vw 1vw;
     font-size: 0.9vw;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'HelveticaNeue-CondensedBold';
     font-weight: 700;
 }
 
@@ -243,14 +246,14 @@
     border-radius: 2vw;
     padding: 0.8vw 1vw 0.8vw 1vw;
     font-size: 0.9vw;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'HelveticaNeue-CondensedBold';
     font-weight: 600;
 }
 
 .header-top-text {
     position: relative;
     left: 13vw;
-    font-family: Helvetica, sans-serif !important;
+    font-family: 'HelveticaNeue-CondensedRegular';
     top: 0vw;
 }
 
@@ -274,7 +277,7 @@
 }
 
 .header-top-input p {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'HelveticaNeue-CondensedRegular';
     font-weight: 700;
     padding-top: 0.5vw;
     font-size: 1.8vw;
@@ -371,7 +374,7 @@
 }
 
 .title {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'HelveticaNeue-CondensedBold';
     font-weight: 700;
 }
 
@@ -427,13 +430,13 @@
 }
 
 .demo-button p {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'HelveticaNeue-CondensedRegular';
     font-weight: 700;
     font-size: 1vw;
 }
 
 .demo-button span {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'HelveticaNeue-CondensedRegular';
     font-weight: 500;
     font-size: 0.7vw;
     position: relative;
@@ -475,12 +478,12 @@
 }
 
 .buy-cards-title {
-    font-family: "Poppins", Helvetica, sans-serif !important;
+    font-family: 'HelveticaNeue-CondensedBold' !important;
     font-weight: 600;
     font-size: 2vw;
     position: relative;
     top: 10vw;
-    left: 30vw;
+    left: 35vw;
 }
 
 .buy-info-card i {
@@ -523,7 +526,7 @@
 }
 
 .buy-info-title {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'HelveticaNeue-CondensedRegular';
     font-weight: 700;
     position: relative;
     left: 0.5vw;
@@ -616,7 +619,7 @@
 
 .card-buy-name {
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'HelveticaNeue-CondensedRegular';
     font-weight: 600;
     font-size: 0.8vw;
     position: relative;
@@ -625,7 +628,7 @@
 
 .card-buy-desc {
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'HelveticaNeue-CondensedRegular';
     font-weight: 300;
     font-size: 0.7vw;
     padding-top: 2vw;
@@ -634,7 +637,7 @@
 .card-buy-price {
     text-align: center;
     font-size: 3.5vw;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'HelveticaNeue-CondensedRegular';
     font-weight: 400;
 }
 
@@ -644,7 +647,7 @@
 }
 
 .card-small-desc {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'HelveticaNeue-CondensedRegular';
     font-weight: 300;
     font-size: 0.8vw;
     position: relative;
@@ -656,7 +659,7 @@
     text-align: center;
     position: relative;
     left: 1.35vw;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'HelveticaNeue-CondensedRegular';
     font-weight: 700;
     bottom: 0vw;
     color: white;
@@ -672,7 +675,7 @@
 }
 
 .month-price {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'HelveticaNeue-CondensedRegular';
     font-weight: 300;
     font-size: 0.6vw;
     position: relative;
@@ -681,7 +684,7 @@
 }
 
 .card-desc {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'HelveticaNeue-CondensedRegular';
     font-weight: 300;
     font-size: 0.7vw;
     position: relative;
@@ -774,7 +777,7 @@
 }
 
 .distro-cards-title {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'HelveticaNeue-CondensedRegular';
     font-weight: 600;
     font-size: 2vw;
     position: relative;
@@ -782,7 +785,7 @@
 }
 
 .distro-title {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'HelveticaNeue-CondensedRegular';
     font-weight: 600;
     font-size: 1.1vw;
 }
@@ -886,7 +889,7 @@
 .question-title {
     font-size: 2.5vw;
     font-weight: 500;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'HelveticaNeue-CondensedBold';
     position: relative;
     top: 3vw;
 }
@@ -894,7 +897,7 @@
 .questions-title-2 {
     font-size: 2.5vw;
     font-weight: 500;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'HelveticaNeue-CondensedBold';
     position: relative;
     top: 8vw;
 }
@@ -1035,6 +1038,11 @@
     top: 30vw;
 }
 
+.pre-foot-button {
+    position: relative;
+    top: 3vw;
+}
+
 .questions button {
     border: none;
     background: #12636F;
@@ -1042,6 +1050,7 @@
     outline: none;
     position: relative;
     left: 0vw;
+    font-family: 'HelveticaNeue-CondensedBold';
     top: 8vw;
     height: 3vw;
     font-weight: 600;
@@ -1074,12 +1083,12 @@
 .footer-left-desc {
     width: 23vw;
     text-align: left;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'HelveticaNeue-CondensedRegular';
     position: relative;
     left: 20vw;
     font-size: 1vw;
     top: 5vw;
-    color: black !important;
+    color: #222222 !important;
 }
 
 .footer-left-link {
@@ -1089,14 +1098,14 @@
     position: relative;
     top: 5vw;
     right: 27.5vw;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'HelveticaNeue-CondensedRegular';
 }
 
 .footer-center-link {
     text-align: left;
     list-style-type: none;
     font-size: 1vw;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'HelveticaNeue-CondensedRegular';
 }
 
 .footer-center-title {
@@ -1114,7 +1123,7 @@
     color: #ed6664;
     font-weight: 500;
     font-size: 1vw;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'HelveticaNeue-CondensedRegular';
 }
 
 .footer-center ul>li {
@@ -1123,7 +1132,7 @@
 
 .footer-right {
     font-size: 1vw;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'HelveticaNeue-CondensedRegular';
     position: relative;
     left: 65vw;
     bottom: 22.5vw;
@@ -1144,7 +1153,7 @@
 }
 
 .footer-down {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'HelveticaNeue-CondensedRegular';
     position: relative;
     width: 105vw;
     background: #1E91A2;
@@ -1197,7 +1206,7 @@
 }
 
 .b2b-title {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'HelveticaNeue-CondensedRegular';
     position: relative;
     font-size: 2.5vw;
     top: 0.7vw;
@@ -1229,7 +1238,7 @@
 }
 
 .distro-1-title {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'HelveticaNeue-CondensedRegular';
     position: relative;
     font-size: 1.5vw;
     font-weight: 600;
@@ -1241,14 +1250,14 @@
 }
 
 .distro-1-card-title {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'HelveticaNeue-CondensedRegular';
     position: relative;
     font-size: 1vw;
     font-weight: 600;
 }
 
 .distro-1-card-desc {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'HelveticaNeue-CondensedRegular';
     position: relative;
     font-size: 1vw;
     font-weight: 400;
@@ -1258,7 +1267,7 @@
 .distro-1-text i {
     position: relative;
     top: 1.3vw;
-    color: #ed6664;
+    color: #e9515b;
     right: 1.5vw;
 }
 
@@ -1290,7 +1299,7 @@
 .distro-2-text i {
     position: relative;
     top: 1.3vw;
-    color: #ed6664;
+    color: #e9515b;
     right: 1.5vw;
 }
 

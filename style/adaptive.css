@@ -470,7 +470,7 @@
                                     margin-bottom: 0.5rem !important;
                                 }
                                 .buy-card-body {
-                                    font-size: 1.6vw !important;
+                                    font-size: 1.4vw !important;
                                 }
                                 .distro-card-list {
                                     left: 0vw !important;
@@ -601,7 +601,7 @@
                                     font-weight: 700 !important;
                                 }
                                 .questions-title {
-                                    font-size: 2vw !important;
+                                    font-size: 1.5vw !important;
                                     width: 50vw !important;
                                 }
                                 .question-desc {
@@ -719,6 +719,9 @@
                                 }
                                 .site-body {
                                     height: 60vw !important;
+                                }
+                                .pre-foot-button {
+                                    top: 4vw !important;
                                 }
                                 .logotype-block-titletext {
                                     top: 15vw !important;
@@ -1058,7 +1061,7 @@
                                     margin-bottom: 0.5rem !important;
                                 }
                                 .buy-card-body {
-                                    font-size: 1.6vw !important;
+                                    font-size: 1.4vw !important;
                                 }
                                 .distro-card-list {
                                     left: 0vw !important;
@@ -1189,7 +1192,7 @@
                                     font-weight: 700 !important;
                                 }
                                 .questions-title {
-                                    font-size: 2vw !important;
+                                    font-size: 1.5vw !important;
                                     width: 50vw !important;
                                 }
                                 .question-desc {
@@ -1269,7 +1272,8 @@
                                     left: 10vw !important;
                                 }
                                 .footer-left-link {
-                                    right: 35vw !important;
+                                    right: 34.5vw !important;
+                                    top: 1vw !important;
                                 }
                                 .footer-center {
                                     position: relative;
@@ -1284,7 +1288,7 @@
                                     bottom: 65vw !important;
                                 }
                                 .footer-down {
-                                    display: none !important;
+                                    height: 4vw !important;
                                 }
                                 .footer-left {
                                     position: relative !important;
@@ -1297,12 +1301,12 @@
                                 .footer-down {
                                     position: relative !important;
                                     display: none !important;
-                                    bottom: 40vw !important;
+                                    bottom: 47vw !important;
                                 }
                                 .footer {
                                     position: relative;
                                     right: 5vw !important;
-                                    top: 0vw !important;
+                                    top: 10vw !important;
                                     height: 40vw !important;
                                 }
                             }
@@ -1312,6 +1316,13 @@
                                     width: 35vw !important;
                                     position: relative !important;
                                     left: 25vw !important;
+                                }
+                                .footer-down-left {
+                                    right: 30vw !important;
+                                    font-size: 1vw !important;
+                                }
+                                .footer-down-right {
+                                    left: 0vw !important;
                                 }
                                 .site-body {
                                     height: 60vw !important;
@@ -1654,7 +1665,7 @@
                                     margin-bottom: 0.5rem !important;
                                 }
                                 .buy-card-body {
-                                    font-size: 1.6vw !important;
+                                    font-size: 1.4vw !important;
                                 }
                                 .distro-card-list {
                                     left: 0vw !important;
@@ -1768,6 +1779,13 @@
                                 .reviews-block {
                                     left: 20vw !important;
                                 }
+                                .footer-down-left {
+                                    right: 30vw !important;
+                                    font-size: 1vw !important;
+                                }
+                                .footer-down-right {
+                                    left: 0vw !important;
+                                }
                                 .questions {
                                     position: relative;
                                     top: 65vw !important;
@@ -1785,7 +1803,7 @@
                                     font-weight: 700 !important;
                                 }
                                 .questions-title {
-                                    font-size: 2vw !important;
+                                    font-size: 1.5vw !important;
                                     width: 50vw !important;
                                 }
                                 .question-desc {
@@ -1861,7 +1879,8 @@
                                     left: 10vw !important;
                                 }
                                 .footer-left-link {
-                                    right: 35vw !important;
+                                    right: 34.5vw !important;
+                                    top: 1vw !important;
                                 }
                                 .footer-center {
                                     position: relative;
@@ -1888,10 +1907,13 @@
                                     display: none !important;
                                     bottom: 40vw !important;
                                 }
+                                .footer-down {
+                                    height: 4vw !important;
+                                }
                                 .footer {
                                     position: relative;
                                     right: 5vw !important;
-                                    height: 40vw !important;
-                                    top: 0vw !important;
+                                    height: 47.5vw !important;
+                                    top: 10vw !important;
                                 }
                             }

@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'HelveticaNeue-CondensedRegular';
+    src: url('../style/fonts/HelveticaNeue-CondensedRegular.eot');
+    src: local('☺'), url('../style/fonts/HelveticaNeue-CondensedRegular.woff') format('woff'), url('../style/fonts/HelveticaNeue-CondensedRegular.fft') format('truetype'), url('../style/fonts/HelveticaNeue-CondensedRegular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue-CondensedBold';
+    src: url('../style/fonts/HelveticaNeue-CondensedBold.eot');
+    src: local('☺'), url('../style/fonts/HelveticaNeue-CondensedBold.woff') format('woff'), url('../style/fonts/HelveticaNeue-CondensedBold.fft') format('truetype'), url('../style/fonts/HelveticaNeue-CondensedBold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue-CondensedMedium';
+    src: url('../style/fonts/HelveticaNeue-CondensedMedium.eot');
+    src: local('☺'), url('../style/fonts/HelveticaNeue-Medium.woff') format('woff'), url('../style/fonts/HelveticaNeue-Medium.fft') format('truetype'), url('../style/fonts/HelveticaNeue-Medium.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue Bold Italic';
+    src: local('Helvetica Neue Bold Italic'), local('Helvetica-Neue-Bold-Italic'), url('../style/fonts/HelveticaNeueCyr-BoldItalic.woff2') format('woff2'), url('../style/fonts/HelveticaNeueCyr-BoldItalic.woff') format('woff'), url('style/fonts/HelveticaNeueCyr-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
